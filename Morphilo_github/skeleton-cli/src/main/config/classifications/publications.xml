@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="publications">
+   <label xml:lang="de" text="Publikationen" description="Publikationen von HP" />
+   <label xml:lang="en" text="Publications" description="Publications from hp" />
+   <categories>
+      <category ID="monographs1">
+         <label xml:lang="de" text="Monographien" />
+         <label xml:lang="en" text="Monographs" />
+         <label xml:lang="x-de-long" text="Peukert, H. (2009): Kindliche Kalkulationen: Eine Computersimulation über den Einfluss stochastischer Informationen auf die Wortsegmentierung beim Erstspracherwerb" description=", Kassel University Press, Kassel." />
+         <label xml:lang="x-en-long" text="Peukert, H. (2009): Infants' Calculations: A Computer Simulation on the Impact of Stochastic Information on Word Segmentation during First Language Acquisition" description=", Kassel University Press, Kassel." />
+      </category>
+      <category ID="edition2">
+         <label xml:lang="de" text="Herausgeberschaften" />
+         <label xml:lang="en" text="Edited Volumes" />
+         <label xml:lang="x-de-long" text="Peukert, H. &amp; I. Gogolin (eds.) (2017): Dynamics of Linguistic Diversity" description=", John Benjamins, Amsterdam." />
+         <label xml:lang="x-en-long" text="Peukert, H. &amp; I. Gogolin (eds.) (2017): Dynamics of Linguistic Diversity" description=", John Benjamins, Amsterdam." />
+      </category>
+      <category ID="editions1">
+         <label xml:lang="de" text="Herausgeberschaften" />
+         <label xml:lang="en" text="Edited Volumes" />
+         <label xml:lang="x-de-long" text="Peukert, H. (ed.) (2015): Transfer Effects in Multilingual Language Development" description=", John Benjamins, Amsterdam." />
+         <label xml:lang="x-en-long" text="Peukert, H. (ed.) (2015): Transfer Effects in Multilingual Language Development" description=", John Benjamins, Amsterdam." />
+      </category>
+      <category ID="article14">
+         <label xml:lang="de" text="Artikel" />
+         <label xml:lang="en" text="Articles" />
+         <label xml:lang="x-de-long" text="Peukert, H. (accepted March 2017): Curating Humanity’s Research Data: Managing Workflows for Adjusting a Repository Framework, International Journal of Digital Curation (IJDC)." description="" />
+         <label xml:lang="x-en-long" text="Peukert, H. (accepted March 2017): Curating Humanity’s Research Data: Managing Workflows for Adjusting a Repository Framework, International Journal of Digital Curation (IJDC)." description="" />
+      </category>
+      <category ID="article13">
+         <label xml:lang="de" text="Artikel" />
+         <label xml:lang="en" text="Articles" />
+         <label xml:lang="x-de-long" text="Peukert, H. (to appear 2017): Auf dem Weg zu einer digitalen Forschungsumgebung: Die Entwicklung spezieller Werkzeuge für das Projekt- und Datenmanagement, in: J. Duarte, I. Gogolin, T. Klinger, B. Schnoor, M. Trebbels (eds.) Sprachentwicklung im Kontext von Mehrsprachigkeit – Hypothesen, Methoden, Forschungsperspektiven, Springer, Berlin." description="" />
+         <label xml:lang="x-en-long" text="Peukert, H. (to appear 2017): Auf dem Weg zu einer digitalen Forschungsumgebung: Die Entwicklung spezieller Werkzeuge für das Projekt- und Datenmanagement, in: J. Duarte, I. Gogolin, T. Klinger, B. Schnoor, M. Trebbels (eds.) Sprachentwicklung im Kontext von Mehrsprachigkeit – Hypothesen, Methoden, Forschungsperspektiven, Springer, Berlin." description="" />
+      </category>
+      <category ID="article12">
+         <label xml:lang="de" text="Artikel" description="rtp" />
+         <label xml:lang="en" text="Articles" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H. (2016): Smoothing derivational asymmetries in English: In support of Greenberg's Universal 27" description=", Language Typology and Universals." />
+         <label xml:lang="x-en-long" text="Peukert, H. (2016): Smoothing derivational asymmetries in English: In support of Greenberg's Universal 27" description=", Language Typology and Universals." />
+      </category>
+      <category ID="article11">
+         <label xml:lang="de" text="Artikel" />
+         <label xml:lang="en" text="Articles" />
+         <label xml:lang="x-de-long" text="Peukert, H. (2015): Transfer Effects in Multilingual Language Development, in H. Peukert (ed.), Transfer Effects in Mutlilingual Language Development, John Benjamins, Amsterdam, 1-17." description="" />
+         <label xml:lang="x-en-long" text="Peukert, H. (2015): Transfer Effects in Multilingual Language Development, in H. Peukert (ed.), Transfer Effects in Mutlilingual Language Development, John Benjamins, Amsterdam, 1-17." description="" />
+      </category>
+      
+      <category ID="article10">
+         <label xml:lang="de" text="Artikel" />
+         <label xml:lang="en" text="Articles" />
+         <label xml:lang="x-de-long" text="Peukert, H. (2015): Urban linguistic landscaping: Scanning the metropolitan spaces, in: M. Laitinen, A. Zabrodskaja (eds.) " description="Dimensions of linguistic landscapes in Europe: Materials and methodological solutions (Language Competence and Language Awareness), Peter Lang, Frankfurt." />
+         <label xml:lang="x-en-long" text="Peukert, H. (2015): Urban linguistic landscaping: Scanning the metropolitan spaces, in: M. Laitinen, A. Zabrodskaja (eds.)" description="Dimensions of linguistic landscapes in Europe: Materials and methodological solutions (Language Competence and Language Awareness), Peter Lang, Frankfurt." />
+      </category>
+
+      <category ID="article9">
+         <label xml:lang="de" text="Artikel" description="rtp" />
+         <label xml:lang="en" text="Articles" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H. (2014): The Morphilo Toolset: Handling the Diversity of English Historical Texts, in: A. Ammermann, A. Brock, J. Pflaeging, P. Schildhauer (eds.) " description="Facets of Linguistics: Proceedings of the 14th Norddeutsches Linguistisches Kolloquium 2013, Peter Lang, Frankfurt, 161-172." />
+         <label xml:lang="x-en-long" text="Peukert, H. (2014): The Morphilo Toolset: Handling the Diversity of English Historical Texts, in: A. Ammermann, A. Brock, J. Pflaeging, P. Schildhauer (eds.) " description="Facets of Linguistics: Proceedings of the 14th Norddeutsches Linguistisches Kolloquium 2013, Peter Lang, Frankfurt, 161-172." />
+      </category>
+
+      <category ID="article8">
+         <label xml:lang="de" text="Artikel" />
+         <label xml:lang="en" text="Articles" />
+         <label xml:lang="x-de-long" text="Peukert, H. (2013): Differing Strategies in English and Japanese word segmentation: a computational-psycholinguistic approach to bootstrapping the lexicon" description=", in: A. Stefanowitsch, J. Goschler (eds.) Yearbook of the German Cognitive Linguistics Association, Mouton de Gruyter, Berlin, 79-107." />
+         <label xml:lang="x-en-long" text="Peukert, H. (2013): Differing Strategies in English and Japanese word segmentation: a computational-psycholinguistic approach to bootstrapping the lexicon" description=", in: A. Stefanowitsch, J. Goschler (eds.) Yearbook of the German Cognitive Linguistics Association, Mouton de Gruyter, Berlin, 79-107." />
+      </category>
+
+      <category ID="article7">
+         <label xml:lang="de" text="Artikel" />
+         <label xml:lang="en" text="Articles" />
+         <label xml:lang="x-de-long" text="Peukert, H. (2013): Measuring Language Diversity in Urban Ecosystems, in: I. Gogolin, J. Duarte (eds.)" description=", Linguistic super-diversity in urban areas: research approaches, John Benjamins, Amsterdam, 75-95." />
+         <label xml:lang="x-en-long" text="Peukert, H. (2013): Measuring Language Diversity in Urban Ecosystems, in: I. Gogolin, J. Duarte (eds.)" description=", Linguistic super-diversity in urban areas: research approaches, John Benjamins, Amsterdam, 75-95." />
+      </category>
+
+      <category ID="article6">
+         <label xml:lang="de" text="Artikel" />
+         <label xml:lang="en" text="Articles" />
+         <label xml:lang="x-de-long" text="Peukert, H. (2012): Hidden Structures in English Corpora, in: Corpus Linguistics and Variation in English: Theory and Description [Language and Computers 75]" description=", D. Mukherjee &amp; M. Huber (eds.), Amsterdam: Rodopi, pp. 131-141." />
+         <label xml:lang="x-en-long" text="Peukert, H. (2012): Hidden Structures in English Corpora, in: Corpus Linguistics and Variation in English: Theory and Description [Language and Computers 75]" description=", D. Mukherjee &amp; M. Huber (eds.), Amsterdam: Rodopi, pp. 131-141." />
+      </category>
+
+      <category ID="article5">
+         <label xml:lang="de" text="Artikel" description="rtp" />
+         <label xml:lang="en" text="Articles" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H. (2012): From Semi-Automatic to Automatic Affix Extraction in Middle English Corpora: Building a Sustainable Database for Analyzing Derivational Morphology over Time" description=", Empirical Methods in Natural Language Processing, Wien, Scientific series of the ÖGAI, 413-23." />
+         <label xml:lang="x-en-long" text="Peukert, H. (2012): From Semi-Automatic to Automatic Affix Extraction in Middle English Corpora: Building a Sustainable Database for Analyzing Derivational Morphology over Time" description=", Empirical Methods in Natural Language Processing, Wien, Scientific series of the ÖGAI, 413-23." />
+      </category>
+
+      <category ID="article4">
+         <label xml:lang="de" text="Artikel" />
+         <label xml:lang="en" text="Articles" />
+         <label xml:lang="x-de-long" text="Peukert, H. (2004): Markteintritt in Indien: das Beispiel der Automobilindustrie" description=", in: WVW (Wirtschaftspraxis – Verwaltungspraxis – Wirtschaftswissenschaften), Heft 2, ISBN 3-928172-91-3." />
+         <label xml:lang="x-en-long" text="Peukert, H. (2004): Markteintritt in Indien: das Beispiel der Automobilindustrie" description=", in: WVW (Wirtschaftspraxis – Verwaltungspraxis – Wirtschaftswissenschaften), Heft 2, ISBN 3-928172-91-3." />
+      </category>
+  
+      <category ID="article3">
+         <label xml:lang="de" text="Artikel" />
+         <label xml:lang="en" text="Articles" />
+         <label xml:lang="x-de-long" text="Peukert, H.; J. Wallmannsberger (2007): Frequency and Similarity: A Statistical Approach to the Development of the Lexicon, in: " description="Sprache und Kultur in Russland: Zustands- und Entwicklungsprozesse, Universitätsverlag Samara, Samara, 51-59." />
+         <label xml:lang="x-en-long" text="Peukert, H.; J. Wallmannsberger (2007): Frequency and Similarity: A Statistical Approach to the Development of the Lexicon, in: " description="Sprache und Kultur in Russland: Zustands- und Entwicklungsprozesse, Universitätsverlag Samara, Samara, 51-59." />
+      </category>
+
+      <category ID="article2">
+         <label xml:lang="de" text="Artikel" />
+         <label xml:lang="en" text="Articles" />
+         <label xml:lang="x-de-long" text="Breckner, I.; H. Peukert; A. Pinto (2013): The Delicate Search for Language in Spaces: Multilingualism as a Resource in Urban Development?" description=", in: P. Siemund, I. Gogolin, M. Schulz, J. Davidova, Multilingualism and Language Contact in Urban Areas: Acquisition - Development - Teaching - Communication, John Benjamins, Amsterdam, 209-226." />
+         <label xml:lang="x-en-long" text="Breckner, I.; H. Peukert; A. Pinto (2013): The Delicate Search for Language in Spaces: Multilingualism as a Resource in Urban Development?" description=", in: P. Siemund, I. Gogolin, M. Schulz, J. Davidova, Multilingualism and Language Contact in Urban Areas: Acquisition - Development - Teaching - Communication, John Benjamins, Amsterdam, 209-226." />
+      </category>
+      <category ID="article1">
+         <label xml:lang="de" text="Artikel" />
+         <label xml:lang="en" text="Articles" />
+         <label xml:lang="x-de-long" text="Wallmannsberger, J.; H. Peukert (2006): Word Boundary Detection Based on Distributional Cues, in: Discourse Space of Communication in Modern Germanic Languages" description=", International Collection of Linguistic Papers, Samara Publishing House, Samara, 115-121." />
+         <label xml:lang="x-en-long" text="Wallmannsberger, J.; H. Peukert (2006): Word Boundary Detection Based on Distributional Cues, in: Discourse Space of Communication in Modern Germanic Languages" description=", International Collection of Linguistic Papers, Samara Publishing House, Samara, 115-121." />
+      </category>
+      <category ID="talkInvit8">
+         <label xml:lang="de" text="Gastvorträge" />
+         <label xml:lang="en" text="Invited Talks" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Von linearen zu hierarchischen Sprachstrukturen: Ergebnisse einer computerlinguistischen Simulationsstudie zum frühen Syntaxerwerb" description=", Fakultät für Geisteswissenschaften, Universität zu Köln, 17-11-2015." />
+         <label xml:lang="x-en-long" text="Peukert, H.: From linear to hierarchical language structures: results of a computational simulation study on early syntax acquisition" description=", Faculty of Humanities, University of Cologne, 17-11-2015." />
+      </category>
+      <category ID="talkInvit7">
+         <label xml:lang="de" text="Gastvorträge" />
+         <label xml:lang="en" text="Invited Talks" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Eine sehr kurze Geschichte der LiPS-DaME: Management von Projekten und digitalen Daten in den Geisteswissenschaften " description=", Hamburger Zentrum für Sprachkorpora (HZSK), Universität Hamburg, 12-12-2014." />
+         <label xml:lang="x-en-long" text="Peukert, H.: A very short history of the LiPS-DaME: management of projects and digital data in the humanities" description=", Hamburger Zentrum für Sprachkorpora (HZSK), University of Hamburg, 12-12-2014." />
+      </category>
+      <category ID="talkInvit6">
+         <label xml:lang="de" text="Gastvorträge" description="rtp" />
+         <label xml:lang="en" text="Invited Talks" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H.: English Compounds between Phrases and Derivations: What Can Language History Tell Us about the Internal Structure of Words" description=", Institute of General and Applied Linguistics, University of Bremen, 05-02-2013." />
+         <label xml:lang="x-en-long" text="Peukert, H.: English Compounds between Phrases and Derivations: What Can Language History Tell Us about the Internal Structure of Words" description=", Institute of General and Applied Linguistics, University of Bremen, 05-02-2013." />
+      </category>
+      <category ID="talkInvit5">
+         <label xml:lang="de" text="Gastvorträge" />
+         <label xml:lang="en" text="Invited Talks" />
+         <label xml:lang="x-de-long" text="Peukert, H.: How Far Do We Get on the Road from Speech Signal to Syntax? Simulating Language Acquisition and Language Learning" description=", Fachbereich Anglistik, Iowa State Universität, 17-01-2012." />
+         <label xml:lang="x-en-long" text="Peukert, H.: How Far Do We Get on the Road from Speech Signal to Syntax? Simulating Language Acquisition and Language Learning" description=", English Department, Iowa State University, January 17th, 2012." />
+      </category>
+      <category ID="talkInvit4">
+         <label xml:lang="de" text="Gastvorträge" description="rtp" />
+         <label xml:lang="en" text="Invited Talks" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Exploring Developmental Tendencies in English Morphology between Grammaticalization, Harmony and Consistency, Linguistisches Kolloquium" description=", Johannes Gutenberg Universität Mainz, 21-11-2011." />
+         <label xml:lang="x-en-long" text="Peukert, H.: Exploring Developmental Tendencies in English Morphology between Grammaticalization, Harmony and Consistency, Linguistisches Kolloquium" description=", Johannes Gutenberg Universität Mainz, 21/11/2011." />
+      </category>
+      <category ID="talkInvit3">
+         <label xml:lang="de" text="Gastvorträge" />
+         <label xml:lang="en" text="Invited Talks" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Neue Herausforderungen im Korpus-Design" description=", Hamburger Zentrum für Sprachkorpora, Universität Hamburg, 08-09-2010." />
+         <label xml:lang="x-en-long" text="New Challenges in Designing Corpora" description=", Hamburger Zentrum für Sprachkorpora, Universität Hamburg, 08-09-2010." />
+      </category>
+      <category ID="talkInvit2">
+         <label xml:lang="de" text="Gastvorträge" />
+         <label xml:lang="en" text="Invited Talks" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Finding Structure in the Sea of Sounds, Computational Modeling of Sound Pattern Acquisition (CMSPA)" description=", University of Alberta, Edmonton (Canada), 14-02-2010." />
+         <label xml:lang="x-en-long" text="Peukert, H.: Finding Structure in the Sea of Sounds, Computational Modeling of Sound Pattern Acquisition (CMSPA)" description=", University of Alberta, Edmonton (Canada), 14-02-2010." />
+      </category>
+      <category ID="talkInvit1">
+         <label xml:lang="de" text="Gastvorträge" />
+         <label xml:lang="en" text="Invited Talks" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Word Segmentation Without Semantic Knowledge" description=", Linguistic Research Colloquium, Department of English and American Studies, Hamburg University, 11-11-2008." />
+         <label xml:lang="x-en-long" text="Peukert, H.: Word Segmentation Without Semantic Knowledge" description=", Linguistic Research Colloquium, Department of English and American Studies, Hamburg University, 11-11-2008." />
+      </category>  
+      <category ID="confi26">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Curating Humanity’s Research Data: Managing Workflows for Adjusting a Repository Framework, IDCC 2017, University of Edinburgh, 20-23/02/2017." description="" />
+         <label xml:lang="x-en-long" text="Peukert, H.: Curating Humanity’s Research Data: Managing Workflows for Adjusting a Repository Framework, IDCC 2017, University of Edinburgh, 20-23/02/2017." description="" />
+      </category>
+      <category ID="confi25">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Webbasierte Morphemannotation Diachroner Korpora: Ein Weg zu mehr Nachhaltigkeit? (English: Web-based Morphemeannotation of Diachronic Corpora: A Chance to more Sustainability?), Dhd 2017, University of Bern, 13-18/02/2017." description="" />
+         <label xml:lang="x-en-long" text="Peukert, H.: Webbasierte Morphemannotation Diachroner Korpora: Ein Weg zu mehr Nachhaltigkeit? (English: Web-based Morphemeannotation of Diachronic Corpora: A Chance to more Sustainability?), Dhd 2017, University of Bern, 13-18/02/2017." description="" />
+      </category>
+      <category ID="confi24">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.; Weise, F.: Entwicklung einer Internetanwendung zur griechisch-lateinischen Epigraphik unter Berücksichtigung von Datennachhaltigkeitsstrategien (English: Development of an Internet Application of greek-latin epigraphic data considering strategies of data sustainability), FORGE 2016, Hamburg, 14-16/09/2016." description="" />
+         <label xml:lang="x-en-long" text="Peukert, H.; Weise, F.: Entwicklung einer Internetanwendung zur griechisch-lateinischen Epigraphik unter Berücksichtigung von Datennachhaltigkeitsstrategien (English: Development of an Internet Application of greek-latin epigraphic data considering strategies of data sustainability), FORGE 2016, Hamburg, 14-16/09/2016." description="" />
+      </category>
+      <category ID="confi23">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Weise, F.; Peukert, H.: Nutzung einer Repositoriumsanwendung zur Modellierung epigraphischer Daten (English: Using a Repository Application to model epigraphic data, FORGE 2016, Hamburg, 14-16/09/2016." description="" />
+         <label xml:lang="x-en-long" text="Weise, F.; Peukert, H.: Nutzung einer Repositoriumsanwendung zur Modellierung epigraphischer Daten (English: Using a Repository Application to model epigraphic data, FORGE 2016, Hamburg, 14-16/09/2016." description="" />
+      </category>
+      <category ID="confi22">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Weise, F.; Peukert, H.: Epigraphik trifft Informatik: Modellierung epigraphischer Daten (English: Epigraphics meets Informatics: Modeling epigraphic data), CLARIN-D CA3-Forum, Universität Hamburg, 07-08/06/2016." description="" />
+         <label xml:lang="x-en-long" text="Weise, F.; Peukert, H.: Epigraphik trifft Informatik: Modellierung epigraphischer Daten (English: Epigraphics meets Informatics: Modeling epigraphic data), CLARIN-D CA3-Forum, Universität Hamburg, 07-08/06/2016." description="" />
+      </category>    
+       <category ID="confi21">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Anforderungsprofil, Architektur und Implementierung eines geisteswissenschaftlichen Dokumentenservers, RDA Deutschland, Helmholtz Zentrum Potsdam, 25-26. November 2015." description="" />
+         <label xml:lang="x-en-long" text="Peukert, H.: Requirements, Architecture and Implementation of a document repository in the Humanities, RDA Deutschland, Helmholtz Zentrum Potsdam, November 25-26, 2015." description="" />
+      </category>
+      <category ID="confi20">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Vom Open-Access zum Shared-Access: Anpassungen der MyCoRe-mir Distribution zu einem personalisiertem Dokumentenserverrepositorium, MyCoRe Anwendertreffen 2015, Technische Universität Ilmenau, 11-12. November 2015." description="" />
+         <label xml:lang="x-en-long" text="Peukert, H.: From Open Access to Shared Access: Customizing the MyCoRe-mir distribution to a personalized document repository), MyCoRe Anwendertreffen 2015, Technische Universität Ilmenau, November 11-12, 2015." description="" />
+      </category>
+      <category ID="confi19">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: How diverse is diversity? Constructing an index of Linguistic Landscapes in the city, Multilingual Individuals and Multilingual Societies 2, University of Hamburg, 10-12. Oktober 2013." description="" />
+         <label xml:lang="x-en-long" text="Peukert, H.: How diverse is diversity? Constructing an index of Linguistic Landscapes in the city, Multilingual Individuals and Multilingual Societies 2, University of Hamburg, October 10-12, 2013." description="" />
+      </category>                 
+      <category ID="confi18">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: There are no Minimal Units of Speech: Evidence from a Computer Simulation of English-Child-Directed-Speech" description=", 5th International Conference on the Linguistics of Contemporary English (ICLCE 5), University of Texas (Austin), 25-29. September 2013." />
+         <label xml:lang="x-en-long" text="Peukert, H.: There are no Minimal Units of Speech: Evidence from a Computer Simulation of English-Child-Directed-Speech" description=", 5th International Conference on the Linguistics of Contemporary English (ICLCE 5), University of Texas (Austin), September 25-29, 2013." />
+      </category>
+
+      <category ID="confi17">
+         <label xml:lang="de" text="Konferenzen" description="rtp" />
+         <label xml:lang="en" text="Conferences" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H.: The mediating role of English compounds in the development of derivational affixes from Middle English to Present Day English" description=", Colloque Bisannuel sur la Diachronie de l'Anglais (CBDA 3), Université de Picardie Jules Verne, Amiens, 06-08. Juni 2013." />
+         <label xml:lang="x-en-long" text="Peukert, H.: The mediating role of English compounds in the development of derivational affixes from Middle English to Present Day English" description=", Colloque Bisannuel sur la Diachronie de l'Anglais (CBDA 3), Université de Picardie Jules Verne, Amiens, June 06-08, 2013." />
+      </category>
+      <category ID="confi16">
+         <label xml:lang="de" text="Konferenzen" description="rtp" />
+         <label xml:lang="en" text="Conferences" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Enlarging the stock of English diachronic resources for deep corpus analysis: A diachronic lexical database, English corpus linguistics on the move: Applications and implications (ICAME 34)" description=", Universidad de Santiago de Compostela, 22-26. Mai 2013." />
+         <label xml:lang="x-en-long" text="Peukert, H.: Enlarging the stock of English diachronic resources for deep corpus analysis: A diachronic lexical database, English corpus linguistics on the move: Applications and implications (ICAME 34)" description=", Universidad de Santiago de Compostela, May 22-26, 2013." />
+      </category>
+      <category ID="confi15">
+         <label xml:lang="de" text="Konferenzen" description="rtp" />
+         <label xml:lang="en" text="Conferences" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H.: The Morphilo Toolset: Building a Diachronic Lexical Database from Large Corpora, 14. Norddeutsches Linguistisches Kolloquium (NLK)" description=", Martin-Luther-Universität Halle-Wittenberg, 15-17. März 2013." />
+         <label xml:lang="x-en-long" text="Peukert, H.: The Morphilo Toolset: Building a Diachronic Lexical Database from Large Corpora, 14. Norddeutsches Linguistisches Kolloquium (NLK)" description=", Martin-Luther-Universität Halle-Wittenberg, March 15-17, 2013." />
+      </category>
+      <category ID="confi14">
+         <label xml:lang="de" text="Konferenzen" description="rtp" />
+         <label xml:lang="en" text="Conferences" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Developmental Tendencies in English Derivational Morphology: Head Percolation or A-morphous Phenomena? Interfaces in English Linguistics (IEL)" description=", Károli Gáspár University, Budapest, 12-13. Oktober 2012." />
+         <label xml:lang="x-en-long" text="Peukert, H.: Developmental Tendencies in English Derivational Morphology: Head Percolation or A-morphous Phenomena? Interfaces in English Linguistics (IEL)" description=", Károli Gáspár University, Budapest, October 12-13, 2012." />
+      </category>
+      <category ID="confi13">
+         <label xml:lang="de" text="Konferenzen" description="rtp" />
+         <label xml:lang="en" text="Conferences" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H.: From Semi-Automatic to Automatic Affix Extraction in Middle English Corpora" description=", 11th Conference on Natural Language Processing (KONVENS 2012), Wien, 19-21. September 2012." />
+         <label xml:lang="x-en-long" text="Peukert, H.: From Semi-Automatic to Automatic Affix Extraction in Middle English Corpora" description=", 11th Conference on Natural Language Processing (KONVENS 2012), Wien, September 19-21, 2012." />
+      </category>
+      <category ID="confi12">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: From streams of sounds to units of meaning: Why is English special?" description=", 4th International Conference on the Linguistics of Contemporary English (ICLCE 4), University Osnabruck, 18-25. Juli 2011." />
+         <label xml:lang="x-en-long" text="Peukert, H.: From streams of sounds to units of meaning: Why is English special?" description=", 4th International Conference on the Linguistics of Contemporary English (ICLCE 4), University Osnabruck, July 18-25, 2011." />
+      </category>
+      <category ID="confi11">
+         <label xml:lang="de" text="Konferenzen" description="rtp" />
+         <label xml:lang="en" text="Conferences" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Scrutinizing the syntax-morphology interface in language change" description=", 15th LIPP Symposium Language Theory and Applied Linguistics, Munich, 13-15. Juli 2011." />
+         <label xml:lang="x-en-long" text="Peukert, H.: Scrutinizing the syntax-morphology interface in language change" description=", 15th LIPP Symposium Language Theory and Applied Linguistics, Munich, July 13-15, 2011." />
+      </category>
+      <category ID="confi10">
+         <label xml:lang="de" text="Konferenzen" description="rtp" />
+         <label xml:lang="en" text="Conferences" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Affix Frequency and Word Order in the History of English: Parsing Middle English Morphosyntax" description=", Trends and Traditions in English Corpus Linguistics (ICAME 32), University of Oslo, 01-05. Juni 2011." />
+         <label xml:lang="x-en-long" text="Peukert, H.: Affix Frequency and Word Order in the History of English: Parsing Middle English Morphosyntax" description=", Trends and Traditions in English Corpus Linguistics (ICAME 32), University of Oslo, June 01-05, 2011." />
+      </category>
+      <category ID="confi9">
+         <label xml:lang="de" text="Konferenzen" description="rtp" />
+         <label xml:lang="en" text="Conferences" description="rtp" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Tracking Middle English Affixes: Does Prefix Frequency Predict Word Order in English?" description=", 6th International Conference on Language Variation in Europe (ICLaVE 6), Freiburg Institute for Advanced Studies, 29.Juni-01.Juli 2011." />
+         <label xml:lang="x-en-long" text="Peukert, H.: Tracking Middle English Affixes: Does Prefix Frequency Predict Word Order in English?" description=", 6th International Conference on Language Variation in Europe (ICLaVE 6), Freiburg Institute for Advanced Studies, June 29- July 01, 2011." />
+      </category>
+      <category ID="confi8">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Proving Poverties of the Stimulus Wrong: A Computational and Corpus-Based Case in Point" description=", Quantitative Investigations in Theoretical Linguistics, Humboldt University Berlin, 28-31. März 2011." />
+         <label xml:lang="x-en-long" text="Peukert, H.: Proving Poverties of the Stimulus Wrong: A Computational and Corpus-Based Case in Point" description=", Quantitative Investigations in Theoretical Linguistics, Humboldt University Berlin, March 28-31, 2011." />
+      </category>
+      <category ID="confi7">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.; C. Scarvaglieri: Scanning the Metropolitan Sounds and Spaces: A Multilingual Dimension of Urban Linguistic Landscaping" description=", Dimensions of Linguistic Landscaping in Europe, University of Jyväskylä, 22-23. Oktober 2010." />
+         <label xml:lang="x-en-long" text="Peukert, H.; C. Scarvaglieri: Scanning the Metropolitan Sounds and Spaces: A Multilingual Dimension of Urban Linguistic Landscaping" description=", Dimensions of Linguistic Landscaping in Europe, University of Jyväskylä, October 22-23, 2010." />
+      </category>
+      <category ID="confi6">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Modeling Word Boundary Detection, Cognitve Linguistics: Reflections and Connections (4th International Conference of the German Cognitive Linguistics Association" description=", University of Bremen, 7-9. Oktober 2010." />
+         <label xml:lang="x-en-long" text="Peukert, H.: Modeling Word Boundary Detection, Cognitve Linguistics: Reflections and Connections (4th International Conference of the German Cognitive Linguistics Association" description=", University of Bremen, October 7-9, 2010." />
+      </category>
+      <category ID="confi5">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: From Segmentation to Lexical Relations, 6th International Conference on Construction Grammar" description=", Karlsuniversität, Prague, 3-5. September 2010." />
+         <label xml:lang="x-en-long" text="Peukert, H.: From Segmentation to Lexical Relations, 6th International Conference on Construction Grammar, Charles University, Prague, September 3-5, 2010." description="" />
+      </category>
+      <category ID="confi4">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Hidden Structures in English Corpora, Corpus Linguistics and Variation in English (ICAME 31)" description=", Justus-Liebig-Universität, Gießen, 26-30. Mai 2010." />
+         <label xml:lang="x-en-long" text="Peukert, H.: Hidden Structures in English Corpora, Corpus Linguistics and Variation in English (ICAME 31)" description=", Justus-Liebig-University, Gießen, May 26-30, 2010." />
+      </category>
+      <category ID="confi3">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: The ubiquitous search for syntactic structures in perceived Child Directed Speech, Norddeutsches Linguistisches Kolloquium (NLK)" description=", Universiät Hamburg, 06-03-2010." />
+         <label xml:lang="x-en-long" text="Peukert, H.: The ubiquitous search for syntactic structures in perceived Child Directed Speech, Norddeutsches Linguistisches Kolloquium (NLK)" description=", Hamburg University, 06-03-2010." />
+      </category>
+      <category ID="confi2">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: Uniting Syntax and Semantics as Complementary Pairs in Language Processing Systems" description=", OPAALS-Review, 12-09-2007, Brussels." />
+         <label xml:lang="x-en-long" text="Peukert, H.: Uniting Syntax and Semantics as Complementary Pairs in Language Processing Systems" description=", OPAALS-Review, 12-09-2007, Brussels." />
+      </category>
+      <category ID="confi1">
+         <label xml:lang="de" text="Konferenzen" />
+         <label xml:lang="en" text="Conferences" />
+         <label xml:lang="x-de-long" text="Peukert, H.: A Critical Investigation of the SBVR-Model (Semantic Business Vocabulary and Rules)" description=", University of Applied Sciences Salzburg, 15-02-2007." />
+         <label xml:lang="x-en-long" text="Peukert, H.: A Critical Investigation of the SBVR-Model (Semantic Business Vocabulary and Rules)" description=", University of Applied Sciences Salzburg, 15-02-2007." />
+      </category>
+      <category ID="software6">
+         <label xml:lang="de" text="Softwareprojekte" />
+         <label xml:lang="en" text="Software Projects" />
+         <label xml:lang="x-de-long" text="Morphilo Webannotation" description="" />
+         <label xml:lang="x-en-long" text="Morphilo Webannotation" description="" />
+      </category>
+      <category ID="software5">
+         <label xml:lang="de" text="Softwareprojekte" />
+         <label xml:lang="en" text="Software Projects" />
+         <label xml:lang="x-de-long" text="epi-DB (Kuration einer epigraphischen Datenbank im MyCoRe-Skeleton)" description="" />
+         <label xml:lang="x-en-long" text="epi-DB (Curation of a epigraphic database in MyCoRe-Skeleton)" description="" />
+      </category>
+      <category ID="software4">
+         <label xml:lang="de" text="Softwareprojekte" />
+         <label xml:lang="en" text="Software Projects" />
+         <label xml:lang="x-de-long" text="gwin Dokumentenserver (Implementierung eines Dokumentenservers auf Basis des MyCoRe Framework" description="" />
+         <label xml:lang="x-en-long" text="gwin Document Server (Implementation of a document server based on the MyCoRe Framework)" description="" />
+      </category>
+      <category ID="software3">
+         <label xml:lang="de" text="Softwareprojekte" description="rtp" />
+         <label xml:lang="en" text="Software Projects" description="rtp" />
+         <label xml:lang="x-de-long" text="Morphilo Toolset (MorExtractor, Morphilizer, MorQuery)" description="" />
+         <label xml:lang="x-en-long" text="Morphilo Toolset (MorExtractor, Morphilizer, MorQuery)" description="" />
+      </category>
+      <category ID="software2">
+         <label xml:lang="de" text="Softwareprojekte" />
+         <label xml:lang="en" text="Software Projects" />
+         <label xml:lang="x-de-long" text="LiPS-DaME (Daten- und Projektmanagement Software für Panel Untersuchungen)" description="" />
+         <label xml:lang="x-en-long" text="LiPS-DaME (Data- and Project Management Software for Panel Studies)" description="" />
+      </category>
+      <category ID="software1">
+         <label xml:lang="de" text="Softwareprojekte" />
+         <label xml:lang="en" text="Software Projects" />
+         <label xml:lang="x-de-long" text="SegmenTool (Java Implementierung der Wortsegmentierungssimulation)" description="" />
+         <label xml:lang="x-en-long" text="SegmenTool (Java implementation of word segmentation simulation)" description="" />
+      </category>  
+   </categories>
+</mycoreclass>
+      

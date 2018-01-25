@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="all" title="Erfassungsmaske Worte">
+    
+    <xed:form xmlns:xed="http://www.mycore.de/xeditor" method="post" role="form" class="form-horizontal">
+      <xed:source uri="mcrobject:{$id}" />
+      <xed:cancel url="/receive/{$id}" />
+      <!--xed:post-processor xsl="postprocessor.xsl" /-->
+      <xed:bind xpath="/mycoreobject">
+        <xed:bind xpath="@ID" initially="skeleton_morphilo_00000000" />
+        <xed:bind xpath="metadata">
+          
+          <fieldset>
+          <!-- Form Name -->
+            <legend>
+              <h2>
+                <xed:if test="def.morphiloContainer/morphiloContainer/morphilo/w">
+                  <xed:output i18n="editor.legend.newItem" />
+                  <xed:output value="def.morphiloContainer/morphiloContainer/morphilo/w/text()[string-length(normalize-space(.))>0]" />
+                </xed:if>
+              </h2>
+            </legend>
+             <xed:bind xpath="def.morphiloContainer[@class='MCRMetaXML'][@heritable='false'][@notinherit='true']/morphiloContainer/morphilo/w"> 
+              <!-- Lemma-->
+             	<xed:bind xpath="@lemma">
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput_lemma_write">
+                      <xed:output i18n="editor.label.lemma" />
+                    </label>  
+                      <div class="col-md-4">
+                        <input id="textinput_lemma_write" placeholder="" class="form-control input-md" type="text" />
+                      </div>
+                  </div>
+                </xed:bind>
+
+                <!-- occurrence -->
+                <xed:bind xpath="@occurrence" default="" />
+                <!-- compound -->
+                <!--xed:bind xpath="@complexType">
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput_complexType_write">
+                      <xed:output i18n="editor.label.complexType" />
+                    </label>  
+                      <div class="col-md-4">
+                        <select id="select_complexType_write" class="form-control">
+                          <option value=""></option>
+                          <xed:include uri="xslStyle:items2options:classification:editor:-1:children:complexType" />
+                        </select>
+                      </div>
+                  </div>
+                </xed:bind-->
+
+                <!-- wordtype -->
+                <xed:bind xpath="@wordtype">
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput_wordtype_write">
+                      <xed:output i18n="editor.label.wordtype" />
+                    </label>  
+                      <div class="col-md-4">
+                        <select id="select_wordtype_write" class="form-control">
+                          <option value=""></option>
+                          <xed:include uri="xslStyle:items2options:classification:editor:-1:children:wordtype" />
+                        </select>
+                      </div>
+                  </div>
+                </xed:bind>
+
+                 <!-- corpus -->
+                <xed:bind xpath="@corpus">
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput_corpus_write">
+                      <xed:output i18n="editor.label.korpusname" />
+                    </label>  
+                      <div class="col-md-4">
+                        <!--select id="select_corpus_write" class="form-control">
+                          <option value=""></option>
+                          <xed:include uri="xslStyle:items2options:classification:editor:-1:children:corpus" />
+                        </select-->
+                        <input id="textinput_corpus_write" placeholder="" class="form-control input-md" type="text" />
+                      </div>
+                  </div>
+                </xed:bind>
+                 <!-- corpus begin -->
+                <xed:bind xpath="@begin">
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput_corpusbegin_write">
+                      <xed:output i18n="editor.label.corpus.begin" />
+                    </label>  
+                      <div class="col-md-4">
+                        <input id="textinput_corpusbegin_write" placeholder="" class="form-control input-md" type="text" />
+                      </div>
+                  </div>
+                </xed:bind>
+                 <!-- corpus end -->
+                <xed:bind xpath="@end">
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput_corpusend_write">
+                      <xed:output i18n="editor.label.corpus.end" />
+                    </label>  
+                      <div class="col-md-4">
+                        <input id="textinput_corpusend_write" placeholder="" class="form-control input-md" type="text" />
+                      </div>
+                  </div>
+                </xed:bind>
+
+                 <!-- stem  -->
+                 <!-- several stems for compounds -->
+                <xed:repeat xpath="m1[@type='stem']">
+                  <div class="form-group">
+                     <label class="col-md-8 control-label" for="textinput_stem_write">
+                            <xed:output i18n="editor.label.stem" />
+                    </label>
+                    <div class="col-md-4">
+                      <xed:controls>append remove up down</xed:controls>
+                    </div>
+                  </div>
+                        <!--div class="form-group">
+                          <label class="col-md-4 control-label" for="textinput_stem_write">
+                            <xed:output i18n="editor.label.stem" />
+                          </label>  
+                            <div class="col-md-4">
+                              <input id="textinput_stem_write" placeholder="" class="form-control input-md" type="text" />
+                            </div>                     
+                        </div-->
+
+                <xed:bind xpath="@pos">
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput_pos_write">
+                      <xed:output i18n="editor.label.pos" />
+                    </label>  
+                      <div class="col-md-4">
+                        <select id="select_pos_write" class="form-control">
+                          <option value=""></option>
+                          <xed:include uri="xslStyle:items2options:classification:editor:-1:children:pos" />
+                        </select>
+                      </div>
+                  </div>
+                </xed:bind>
+                
+                <xed:bind xpath="m2[@type='base']">
+                  <!--div class="form-group">
+                      <label class="col-md-4 control-label" for="textinput_base_write">
+                        <xed:output i18n="editor.label.base" />
+                      </label>  
+                        <div class="col-md-4">
+                          <input id="textinput_base_write" placeholder="" class="form-control input-md" type="text" />
+                        </div>
+                    </div-->
+
+                <!-- prefix /-->
+                <xed:repeat xpath="m4[@type='prefix']">
+                  <div class="form-group">
+                  <xed:controls>append remove up down</xed:controls>
+                  <xed:bind xpath=".">     
+                      <label class="col-md-4 control-label" for="textinput_prefix_write">
+                        <xed:output i18n="editor.label.prefix" />
+                      </label>  
+                        <div class="col-md-4">
+                          <input id="textinput_prefix_write" placeholder="" class="form-control input-md" type="text" />
+                        </div>
+                  </xed:bind>
+                  </div>
+
+                  <xed:bind xpath="@PrefixbaseForm">
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="textinput_prefixbaseform_write">
+                        <xed:output i18n="editor.label.prefixbaseform" />
+                      </label>  
+                        <div class="col-md-4">
+                          <select id="select_prefixbase_write" class="form-control">
+                            <option value=""></option>
+                            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:PrefixbaseForm" />
+                          </select>
+                        </div>
+                    </div>
+                  </xed:bind>
+                  <xed:bind xpath="@position">
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="textinput_prefixposition_write">
+                        <xed:output i18n="editor.label.prefixposition" />
+                      </label>  
+                        <div class="col-md-4">
+                          <input id="textinput_prefixposition_write" placeholder="" class="form-control input-md" type="text" />
+                        </div>
+                    </div>
+                  </xed:bind>                  
+                  <!-- Ende prefix -->
+                </xed:repeat>
+
+                 <xed:bind xpath="m3[@type='root']">
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="textinput_root_write">
+                        <xed:output i18n="editor.label.root" />
+                      </label>  
+                        <div class="col-md-4">
+                          <input id="textinput_root_write" placeholder="" class="form-control input-md" type="text" />
+                        </div>
+                    </div>
+                </xed:bind>
+              </xed:bind>
+
+                <!-- suffix / -->
+                <xed:repeat xpath="m5[@type='suffix']">
+                  <div class="form-group">
+                  <xed:controls>append remove up down</xed:controls>
+                  <xed:bind xpath=".">
+
+                      <label class="col-md-4 control-label" for="textinput_suffix_write">
+                        <xed:output i18n="editor.label.suffix" />
+                      </label>  
+                        <div class="col-md-4">
+                          <input id="textinput_suffix_write" placeholder="" class="form-control input-md" type="text" />
+                        </div>
+                  </xed:bind>
+                  </div>
+                 
+                  <xed:bind xpath="@SuffixbaseForm">
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="textinput_SuffixbaseForm_write">
+                        <xed:output i18n="editor.label.SuffixbaseForm" />
+                      </label>  
+                        <div class="col-md-4">
+                          <select id="select_suffixbase_write" class="form-control">
+                            <option value=""></option>
+                            <xed:include uri="xslStyle:items2options:classification:editor:-1:children:SuffixbaseForm" />
+                          </select>
+                        </div>
+                    </div>
+                  </xed:bind>
+                  <xed:bind xpath="@position">
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="textinput_position_write">
+                        <xed:output i18n="editor.label.position" />
+                      </label>  
+                        <div class="col-md-4">
+                          <input id="textinput_position_write" placeholder="" class="form-control input-md" type="text" />
+                        </div>
+                    </div>
+                  </xed:bind>
+                <!-- repeat der Suffixe -->
+                </xed:repeat>
+                
+                <xed:bind xpath="m5[@type='suffix']/@inflection">
+                      <div class="form-group">
+                        <label class="col-md-4 control-label" for="textinput_inflection_write">
+                          <xed:output i18n="editor.label.inflection" />
+                        </label>  
+                          <div class="col-md-4">
+                            <select id="select_inflection_write" class="form-control">
+                              <option value=""></option>
+                              <xed:include uri="xslStyle:items2options:classification:editor:-1:children:inflection" />
+                            </select>
+                          </div>
+                      </div>
+                  </xed:bind>
+                <!-- repeat der Wortstaemme -->
+              </xed:repeat>
+              </xed:bind>  
+                
+                <xed:bind xpath="def.corpuslink[@class='MCRMetaLinkID']">
+                  <xed:bind xpath="@notinherit" default="true" />
+                  <xed:bind xpath="@heritable" default="false" />
+                  <xed:bind xpath="corpuslink">
+                    <xed:bind xpath="@inherited" default="0" />
+                    <xed:bind xpath="@xlink:type" default="locator" />
+                    <xed:bind xpath="@xlink:href" default="skeleton_corpmeta_00000000" />
+                  </xed:bind>
+                </xed:bind>
+                <!-- classifications -->
+                <xed:bind xpath="def.wortype[@class='MCRMetaClassification']/wortype[@classid='wortype']/@categid"></xed:bind>
+                <xed:bind xpath="def.complexType[@class='MCRMetaClassification']/complexType[@classid='complexType']/@categid"></xed:bind>
+                <xed:bind xpath="def.corpus[@class='MCRMetaClassification']/corpus[@classid='corpus']/@categid"></xed:bind>
+                <xed:bind xpath="def.pos[@class='MCRMetaClassification']/pos[@classid='pos']/@categid"></xed:bind>
+                <xed:bind xpath="def.PrefixbaseForm[@class='MCRMetaClassification']/PrefixbaseForm[@classid='PrefixbaseForm']/@categid"></xed:bind>
+                <xed:bind xpath="def.SuffixbaseForm[@class='MCRMetaClassification']/SuffixbaseForm[@classid='SuffixbaseForm']/@categid"></xed:bind>
+                <xed:bind xpath="def.inflection[@class='MCRMetaClassification']/inflection[@classid='inflection']/@categid"></xed:bind>
+
+                <!-- Submit or cancel -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="button_submit"></label>
+                  <div class="col-md-8">
+                        <xed:choose>
+                          <xed:when test="contains(/mycoreobject/@ID, '_00000000')">
+                            <button id="save" class="btn btn-success createobject" type="submit" xed:target="servlet"
+                              xed:href="CreateObjectServlet">
+                              <xed:output i18n="common.button.save" />
+                            </button>
+                          </xed:when>
+                          <xed:otherwise>
+                            <button id="save" class="btn btn-success updateobject" type="submit" xed:target="servlet"
+                              xed:href="UpdateObjectServlet">
+                              <xed:output i18n="common.button.save" />
+                            </button>
+                          </xed:otherwise>
+                        </xed:choose>
+                        <xed:output value="'&#160;'" />
+                        <button id="cancel" class="btn btn-danger" type="submit" xed:target="cancel">
+                          <xed:output i18n="common.button.cancel" />
+                        </button>
+                        <xed:output value="'&#160;'" />
+                        <button id="debug" class="btn btn-info" type="submit" xed:target="debug">
+                          <xed:output i18n="common.button.debug" />
+                        </button>
+                  </div>
+                </div>
+
+        </fieldset>
+       </xed:bind>
+      </xed:bind>
+    </xed:form>
+
+  </section>
+</MyCoReWebPage>
+

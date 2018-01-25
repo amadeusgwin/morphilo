@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="PrefixbaseForm">
+    <label xml:lang="de" text="Präfix" description="Morphemische Repräsentation des Präfixes" />
+    <label xml:lang="en" text="Prefix" description="Morphemic representation of prefix" />
+    <categories>
+        <category ID="a">
+            <label xml:lang="de" text="a" />
+            <label xml:lang="en" text="a" />
+        </category>
+        <category ID="ab">
+            <label xml:lang="de" text="ab" />
+            <label xml:lang="en" text="ab" />
+        </category>
+        <category ID="ac">
+            <label xml:lang="de" text="ac" />
+            <label xml:lang="en" text="ac" />
+        </category>
+        <category ID="ad">
+            <label xml:lang="de" text="ad" />
+            <label xml:lang="en" text="ad" />
+        </category>
+        <category ID="ae">
+            <label xml:lang="de" text="ae" />
+            <label xml:lang="en" text="ae" />
+        </category>
+        <category ID="after">
+            <label xml:lang="de" text="after" />
+            <label xml:lang="en" text="after" />
+        </category>
+        <category ID="ag">
+            <label xml:lang="de" text="ag" />
+            <label xml:lang="en" text="ag" />
+        </category>
+        <category ID="al">
+            <label xml:lang="de" text="al" />
+            <label xml:lang="en" text="al" />
+        </category>
+        <category ID="ambi">
+            <label xml:lang="de" text="ambi" />
+            <label xml:lang="en" text="ambi" />
+        </category>
+        <category ID="amphi">
+            <label xml:lang="de" text="amphi" />
+            <label xml:lang="en" text="amphi" />
+        </category>
+        <category ID="an">
+            <label xml:lang="de" text="an" />
+            <label xml:lang="en" text="an" />
+        </category>
+        <category ID="ana">
+            <label xml:lang="de" text="ana" />
+            <label xml:lang="en" text="ana" />
+        </category>
+        <category ID="and">
+            <label xml:lang="de" text="and" />
+            <label xml:lang="en" text="and" />
+        </category>
+        <category ID="ano">
+            <label xml:lang="de" text="ano" />
+            <label xml:lang="en" text="ano" />
+        </category>
+        <category ID="ant">
+            <label xml:lang="de" text="ant" />
+            <label xml:lang="en" text="ant" />
+        </category>
+        <category ID="ante">
+            <label xml:lang="de" text="ante" />
+            <label xml:lang="en" text="ante" />
+        </category>
+        <category ID="anti">
+            <label xml:lang="de" text="anti" />
+            <label xml:lang="en" text="anti" />
+        </category>
+        <category ID="ap">
+            <label xml:lang="de" text="ap" />
+            <label xml:lang="en" text="ap" />
+        </category>
+        <category ID="aph">
+            <label xml:lang="de" text="aph" />
+            <label xml:lang="en" text="aph" />
+        </category>
+        <category ID="apo">
+            <label xml:lang="de" text="apo" />
+            <label xml:lang="en" text="apo" />
+        </category>
+        <category ID="ar">
+            <label xml:lang="de" text="ar" />
+            <label xml:lang="en" text="ar" />
+        </category>
+        <category ID="arch">
+            <label xml:lang="de" text="arch" />
+            <label xml:lang="en" text="arch" />
+        </category>
+        <category ID="archi">
+            <label xml:lang="de" text="archi" />
+            <label xml:lang="en" text="archi" />
+        </category>
+        <category ID="as">
+            <label xml:lang="de" text="as" />
+            <label xml:lang="en" text="as" />
+        </category>
+        <category ID="at">
+            <label xml:lang="de" text="at" />
+            <label xml:lang="en" text="at" />
+        </category>
+        <category ID="avaunt">
+            <label xml:lang="de" text="avaunt" />
+            <label xml:lang="en" text="avaunt" />
+        </category>
+        <category ID="be">
+            <label xml:lang="de" text="be" />
+            <label xml:lang="en" text="be" />
+        </category>
+        <category ID="bes">
+            <label xml:lang="de" text="bes" />
+            <label xml:lang="en" text="bes" />
+        </category>
+        <category ID="bi">
+            <label xml:lang="de" text="bi" />
+            <label xml:lang="en" text="bi" />
+        </category>
+        <category ID="bin">
+            <label xml:lang="de" text="bin" />
+            <label xml:lang="en" text="bin" />
+        </category>
+        <category ID="cata">
+            <label xml:lang="de" text="cata" />
+            <label xml:lang="en" text="cata" />
+        </category>
+        <category ID="circum">
+            <label xml:lang="de" text="circum" />
+            <label xml:lang="en" text="circum" />
+        </category>
+        <category ID="cis">
+            <label xml:lang="de" text="cis" />
+            <label xml:lang="en" text="cis" />
+        </category>
+        <category ID="citra">
+            <label xml:lang="de" text="citra" />
+            <label xml:lang="en" text="citra" />
+        </category>
+        <category ID="co">
+            <label xml:lang="de" text="co" />
+            <label xml:lang="en" text="co" />
+        </category>
+        <category ID="com">
+            <label xml:lang="de" text="com" />
+            <label xml:lang="en" text="com" />
+        </category>
+        <category ID="con">
+            <label xml:lang="de" text="con" />
+            <label xml:lang="en" text="con" />
+        </category>
+        <category ID="contra">
+            <label xml:lang="de" text="contra" />
+            <label xml:lang="en" text="contra" />
+        </category>
+        <category ID="cor">
+            <label xml:lang="de" text="cor" />
+            <label xml:lang="en" text="cor" />
+        </category>
+        <category ID="de">
+            <label xml:lang="de" text="de" />
+            <label xml:lang="en" text="de" />
+        </category>
+        <category ID="demi">
+            <label xml:lang="de" text="demi" />
+            <label xml:lang="en" text="demi" />
+        </category>
+        <category ID="des">
+            <label xml:lang="de" text="des" />
+            <label xml:lang="en" text="des" />
+        </category>
+        <category ID="di">
+            <label xml:lang="de" text="di" />
+            <label xml:lang="en" text="di" />
+        </category>
+        <category ID="dia">
+            <label xml:lang="de" text="dia" />
+            <label xml:lang="en" text="dia" />
+        </category>
+        <category ID="dif">
+            <label xml:lang="de" text="dif" />
+            <label xml:lang="en" text="dif" />
+        </category>
+        <category ID="dis">
+            <label xml:lang="de" text="dis" />
+            <label xml:lang="en" text="dis" />
+        </category>
+        <category ID="e">
+            <label xml:lang="de" text="e" />
+            <label xml:lang="en" text="e" />
+        </category>
+        <category ID="ed">
+            <label xml:lang="de" text="ed" />
+            <label xml:lang="en" text="ed" />
+        </category>
+        <category ID="ef">
+            <label xml:lang="de" text="ef" />
+            <label xml:lang="en" text="ef" />
+        </category>
+        <category ID="em">
+            <label xml:lang="de" text="em" />
+            <label xml:lang="en" text="em" />
+        </category>
+        <category ID="en">
+            <label xml:lang="de" text="en" />
+            <label xml:lang="en" text="en" />
+        </category>
+        <category ID="endo">
+            <label xml:lang="de" text="endo" />
+            <label xml:lang="en" text="endo" />
+        </category>
+        <category ID="enter">
+            <label xml:lang="de" text="enter" />
+            <label xml:lang="en" text="enter" />
+        </category>
+        <category ID="ento">
+            <label xml:lang="de" text="ento" />
+            <label xml:lang="en" text="ento" />
+        </category>
+        <category ID="ep">
+            <label xml:lang="de" text="ep" />
+            <label xml:lang="en" text="ep" />
+        </category>
+        <category ID="epana">
+            <label xml:lang="de" text="epana" />
+            <label xml:lang="en" text="epana" />
+        </category>
+        <category ID="epi">
+            <label xml:lang="de" text="epi" />
+            <label xml:lang="en" text="epi" />
+        </category>
+        <category ID="es">
+            <label xml:lang="de" text="es" />
+            <label xml:lang="en" text="es" />
+        </category>
+        <category ID="eso">
+            <label xml:lang="de" text="eso" />
+            <label xml:lang="en" text="eso" />
+        </category>
+        <category ID="ex">
+            <label xml:lang="de" text="ex" />
+            <label xml:lang="en" text="ex" />
+        </category>
+        <category ID="exo">
+            <label xml:lang="de" text="exo" />
+            <label xml:lang="en" text="exo" />
+        </category>
+        <category ID="extra">
+            <label xml:lang="de" text="extra" />
+            <label xml:lang="en" text="extra" />
+        </category>
+        <category ID="extro">
+            <label xml:lang="de" text="extro" />
+            <label xml:lang="en" text="extro" />
+        </category>
+        <category ID="for">
+            <label xml:lang="de" text="for" />
+            <label xml:lang="en" text="for" />
+        </category>
+        <category ID="gain">
+            <label xml:lang="de" text="gain" />
+            <label xml:lang="en" text="gain" />
+        </category>
+        <category ID="hemi">
+            <label xml:lang="de" text="hemi" />
+            <label xml:lang="en" text="hemi" />
+        </category>
+        <category ID="hyper">
+            <label xml:lang="de" text="hyper" />
+            <label xml:lang="en" text="hyper" />
+        </category>
+        <category ID="hytero">
+            <label xml:lang="de" text="hytero" />
+            <label xml:lang="en" text="hytero" />
+        </category>
+        <category ID="il">
+            <label xml:lang="de" text="il" />
+            <label xml:lang="en" text="il" />
+        </category>
+        <category ID="im">
+            <label xml:lang="de" text="im" />
+            <label xml:lang="en" text="im" />
+        </category>
+        <category ID="in">
+            <label xml:lang="de" text="in" />
+            <label xml:lang="en" text="in" />
+        </category>
+        <category ID="infra">
+            <label xml:lang="de" text="infra" />
+            <label xml:lang="en" text="infra" />
+        </category>
+        <category ID="inter">
+            <label xml:lang="de" text="inter" />
+            <label xml:lang="en" text="inter" />
+        </category>
+        <category ID="intra">
+            <label xml:lang="de" text="intra" />
+            <label xml:lang="en" text="intra" />
+        </category>
+        <category ID="intro">
+            <label xml:lang="de" text="intro" />
+            <label xml:lang="en" text="intro" />
+        </category>
+        <category ID="iodoso">
+            <label xml:lang="de" text="iodoso" />
+            <label xml:lang="en" text="iodoso" />
+        </category>
+        <category ID="ir">
+            <label xml:lang="de" text="ir" />
+            <label xml:lang="en" text="ir" />
+        </category>
+        <category ID="juxta">
+            <label xml:lang="de" text="juxta" />
+            <label xml:lang="en" text="juxta" />
+        </category>
+        <category ID="kata">
+            <label xml:lang="de" text="kata" />
+            <label xml:lang="en" text="kata" />
+        </category>
+        <category ID="ker">
+            <label xml:lang="de" text="ker" />
+            <label xml:lang="en" text="ker" />
+        </category>
+        <category ID="mal">
+            <label xml:lang="de" text="mal" />
+            <label xml:lang="en" text="mal" />
+        </category>
+        <category ID="meta">
+            <label xml:lang="de" text="meta" />
+            <label xml:lang="en" text="meta" />
+        </category>
+        <category ID="mis">
+            <label xml:lang="de" text="mis" />
+            <label xml:lang="en" text="mis" />
+        </category>
+        <category ID="non">
+            <label xml:lang="de" text="non" />
+            <label xml:lang="en" text="non" />
+        </category>
+        <category ID="nor">
+            <label xml:lang="de" text="nor" />
+            <label xml:lang="en" text="nor" />
+        </category>
+        <category ID="ob">
+            <label xml:lang="de" text="ob" />
+            <label xml:lang="en" text="ob" />
+        </category>
+        <category ID="of">
+            <label xml:lang="de" text="of" />
+            <label xml:lang="en" text="of" />
+        </category>
+        <category ID="on">
+            <label xml:lang="de" text="on" />
+            <label xml:lang="en" text="on" />
+        </category>
+        <category ID="or">
+            <label xml:lang="de" text="or" />
+            <label xml:lang="en" text="or" />
+        </category>
+        <category ID="out">
+            <label xml:lang="de" text="out" />
+            <label xml:lang="en" text="out" />
+        </category>
+        <category ID="over">
+            <label xml:lang="de" text="over" />
+            <label xml:lang="en" text="over" />
+        </category>
+        <category ID="para">
+            <label xml:lang="de" text="para" />
+            <label xml:lang="en" text="para" />
+        </category>
+        <category ID="pene">
+            <label xml:lang="de" text="pene" />
+            <label xml:lang="en" text="pene" />
+        </category>
+        <category ID="per">
+            <label xml:lang="de" text="per" />
+            <label xml:lang="en" text="per" />
+        </category>
+        <category ID="pre">
+            <label xml:lang="de" text="pre" />
+            <label xml:lang="en" text="pre" />
+        </category>
+        <category ID="peri">
+            <label xml:lang="de" text="peri" />
+            <label xml:lang="en" text="peri" />
+        </category>
+        <category ID="post">
+            <label xml:lang="de" text="post" />
+            <label xml:lang="en" text="post" />
+        </category>
+        <category ID="preter">
+            <label xml:lang="de" text="preter" />
+            <label xml:lang="en" text="preter" />
+        </category>
+        <category ID="pro">
+            <label xml:lang="de" text="pro" />
+            <label xml:lang="en" text="pro" />
+        </category>
+        <category ID="pur">
+            <label xml:lang="de" text="pur" />
+            <label xml:lang="en" text="pur" />
+        </category>
+        <category ID="re">
+            <label xml:lang="de" text="re" />
+            <label xml:lang="en" text="re" />
+        </category>
+        <category ID="retro">
+            <label xml:lang="de" text="retro" />
+            <label xml:lang="en" text="retro" />
+        </category>
+        <category ID="sam">
+            <label xml:lang="de" text="sam" />
+            <label xml:lang="en" text="sam" />
+        </category>
+        <category ID="se">
+            <label xml:lang="de" text="se" />
+            <label xml:lang="en" text="se" />
+        </category>
+        <category ID="self">
+            <label xml:lang="de" text="self" />
+            <label xml:lang="en" text="self" />
+        </category>
+        <category ID="semi">
+            <label xml:lang="de" text="semi" />
+            <label xml:lang="en" text="semi" />
+        </category>
+        <category ID="semie">
+            <label xml:lang="de" text="semie" />
+            <label xml:lang="en" text="semie" />
+        </category>
+        <category ID="sous">
+            <label xml:lang="de" text="sous" />
+            <label xml:lang="en" text="sous" />
+        </category>
+        <category ID="south">
+            <label xml:lang="de" text="south" />
+            <label xml:lang="en" text="south" />
+        </category>
+        <category ID="sub">
+            <label xml:lang="de" text="sub" />
+            <label xml:lang="en" text="sub" />
+        </category>
+        <category ID="subter">
+            <label xml:lang="de" text="subter" />
+            <label xml:lang="en" text="subter" />
+        </category>
+        <category ID="super">
+            <label xml:lang="de" text="super" />
+            <label xml:lang="en" text="super" />
+        </category>
+        <category ID="supra">
+            <label xml:lang="de" text="supra" />
+            <label xml:lang="en" text="supra" />
+        </category>
+        <category ID="sur">
+            <label xml:lang="de" text="sur" />
+            <label xml:lang="en" text="sur" />
+        </category>
+        <category ID="sursum">
+            <label xml:lang="de" text="sursum" />
+            <label xml:lang="en" text="sursum" />
+        </category>
+        <category ID="sym">
+            <label xml:lang="de" text="sym" />
+            <label xml:lang="en" text="sym" />
+        </category>
+        <category ID="syn">
+            <label xml:lang="de" text="syn" />
+            <label xml:lang="en" text="syn" />
+        </category>
+        <category ID="to">
+            <label xml:lang="de" text="to" />
+            <label xml:lang="en" text="to" />
+        </category>
+        <category ID="trans">
+            <label xml:lang="de" text="trans" />
+            <label xml:lang="en" text="trans" />
+        </category>
+        <category ID="tres">
+            <label xml:lang="de" text="tres" />
+            <label xml:lang="en" text="tres" />
+        </category>
+        <category ID="ultra">
+            <label xml:lang="de" text="ultra" />
+            <label xml:lang="en" text="ultra" />
+        </category>
+        <category ID="um">
+            <label xml:lang="de" text="um" />
+            <label xml:lang="en" text="um" />
+        </category>
+        <category ID="umb">
+            <label xml:lang="de" text="umb" />
+            <label xml:lang="en" text="umb" />
+        </category>
+        <category ID="under">
+            <label xml:lang="de" text="under" />
+            <label xml:lang="en" text="under" />
+        </category>
+        <category ID="up">
+            <label xml:lang="de" text="up" />
+            <label xml:lang="en" text="up" />
+        </category>
+        <category ID="ur">
+            <label xml:lang="de" text="ur" />
+            <label xml:lang="en" text="ur" />
+        </category>
+        <category ID="vant">
+            <label xml:lang="de" text="vant" />
+            <label xml:lang="en" text="vant" />
+        </category>
+        <category ID="vice">
+            <label xml:lang="de" text="vice" />
+            <label xml:lang="en" text="vice" />
+        </category>
+        <category ID="wan">
+            <label xml:lang="de" text="wan" />
+            <label xml:lang="en" text="wan" />
+        </category>
+        <category ID="with">
+            <label xml:lang="de" text="with" />
+            <label xml:lang="en" text="with" />
+        </category>
+        <category ID="wither">
+            <label xml:lang="de" text="wither" />
+            <label xml:lang="en" text="wither" />
+        </category>
+        <category ID="y">
+            <label xml:lang="de" text="y" />
+            <label xml:lang="en" text="y" />
+        </category>
+        <category ID="un">
+            <label xml:lang="de" text="un" />
+            <label xml:lang="en" text="un" />
+        </category>
+        <category ID="hypo">
+            <label xml:lang="de" text="hypo" />
+            <label xml:lang="en" text="hypo" />
+        </category>
+        <category ID="lo">
+            <label xml:lang="de" text="lo" />
+            <label xml:lang="en" text="lo" />
+        </category>
+    </categories>
+</mycoreclass>

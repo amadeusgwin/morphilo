@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+
+ <!-- Please insert English version here -->
+ <section title="Dokumentation" xml:lang="en">
+  <div class="row">
+    <div class="col-md-8">
+     <h2>Documentation Database</h2>  
+     <p>
+     The Morphilo Database comprises 15 linked tables. For each time period represented by a corpus of a balanced size compounds, words, suffixes, prefixes, their position and their number can be retrieved. The database is extensible, that is new corpora and its affix information can be added.
+     </p> 
+     <h3>The Morphilo Database ER-Diagramm</h3>
+     <img src="../../images/morphiloDB_ERD.png"/>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+ </section>
+  
+ <section title="Dokumentation" xml:lang="de">
+  <div class="row">
+   <div class="col-md-8">
+    <h2>Dokumentation der Datenbank</h2>
+    <p>
+     The Morphilo Database comprises 15 linked tables. For each time period represented by a corpus of a balanced size compounds, words, suffixes, prefixes, their position and their number can be retrieved. The database is extensible, that is new corpora and its affix information can be added.
+     </p> 
+    <h3>Das ER-Diagramm der Morphilo Datenbank</h3>
+     <img src="../../images/morphiloDB_ERD.png"/>
+   </div>
+   <div class="col-md-4">
+   </div>
+  </div>
+ </section>
+  
+  <meta>
+    <log date="2016-03-31" time="10:53" labelPath=" » Start" lastEditor="Hagen Peukert" />
+  </meta>
+  
+</MyCoReWebPage>

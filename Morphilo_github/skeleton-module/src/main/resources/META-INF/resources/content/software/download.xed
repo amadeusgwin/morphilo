@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+
+ <!-- Please insert English version here -->
+ <section title="Dowload" xml:lang="en">
+  <div class="row">
+    <div class="col-md-8">
+     <h2>Download</h2>   
+        <table>
+         <tr>
+          <td>
+           <a href="MorphiloSetupDB.sql">database setup</a>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="morextractor.jar">morExtractor</a>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="morphilizer.jar">morphilizer</a>     
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="morquery.jar">morQuery</a>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="README.TXT">release information</a>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="lib.zip">libraries</a>
+          </td>          
+         </tr>
+         <tr>
+          <td>
+           <a href="morphiloDoc.pdf">documentation</a>          
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="Toolset.zip">all</a>         
+          </td>
+         </tr>
+        </table>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+ </section>
+  
+ <section title="Download" xml:lang="de">
+  <div class="row">
+   <div class="col-md-8">
+    <h2>Download</h2>
+      <table>
+         <tr>
+          <td>
+           <a href="MorphiloSetupDB.sql">Datenbankeinrichtung</a>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="morextractor.jar">morExtractor</a>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="morphilizer.jar">morphilizer</a>          
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="morquery.jar">morQuery</a>
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="README.TXT">Release Information</a>
+          </td>
+         </tr>
+         <tr>
+          <td>
+          </td>
+           <a href="lib.zip">Bibliotheken</a>
+         </tr>
+         <tr>
+          <td>
+           <a href="morphiloDoc.pdf">Dokumentation</a>          
+          </td>
+         </tr>
+         <tr>
+          <td>
+           <a href="Toolset.zip">Komplett</a>          
+          </td>
+         </tr>
+        </table>
+   </div>
+   <div class="col-md-4">
+   </div>
+  </div>
+ </section>
+  
+  <meta>
+    <log date="2016-03-31" time="10:53" labelPath=" » Start" lastEditor="Hagen Peukert" />
+  </meta>
+  
+</MyCoReWebPage>

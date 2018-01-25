@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+
+ <!-- Please insert English version here -->
+ <section title="Project Publication" xml:lang="en">
+  <div class="row">
+    <div class="col-md-8">
+     <h2>Publications relevant to the Project</h2>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+ </section>
+  
+ <section title="Projekt Publikation" xml:lang="de">
+  <div class="row">
+   <div class="col-md-8">
+    <h2>Projektrelevante Publikationen</h2>
+   </div>
+   <div class="col-md-4">
+   </div>
+  </div>
+ </section>
+ <section title="Publications" xml:lang="all">
+   <div class="row">
+    
+    <div class="col-md-0">
+    </div>
+    <div class="col-md-12">
+     <xed:form xmlns:xed="http://www.mycore.de/xeditor" method="post" role="form" class="form-horizontal">
+         <xed:source name="hp_publ" uri="classification:metadata:-1:children:publications" />
+          <div class="morphiltable">
+            <xed:bind xpath="//categories">
+             <table  style="vertical-align:top;">
+              <xed:if test="category/label[(@text = 'Monographien' or @text= 'Monographs') and @description= 'rtp']">      
+                 <tr>
+                   <td style="width: 225px;"> 
+                    <xed:output value="//category/label[@text = 'Monographien' or @text= 'Monographs'][lang($CurrentLang)]/@text" />               
+                   </td>
+                   <td>
+                    <ul>
+                    <xed:repeat xpath="category/label[@text = 'Monographien' and @description= 'rtp']">
+                      <li>
+                       <xed:output value="../label[lang(concat('x-',$CurrentLang,'-long'))]/@text" />
+                       <xed:output value="../label[lang(concat('x-',$CurrentLang,'-long'))]/@description" />
+                       <br />
+                      </li>
+                    </xed:repeat>
+                   </ul> 
+                  </td>
+                </tr>
+              </xed:if> 
+              <xed:if test="category/label[(@text = 'Herausgeberschaften' or @text='Edited Volumes') and @description= 'rtp']">       
+               <tr>
+                <td style="width: 225px;">
+                 <xed:output value="//category/label[@text = 'Herausgeberschaften' or @text='Edited Volumes'][lang($CurrentLang)]/@text" /> 
+                </td>
+                <td>
+                 <ul>
+                  <xed:repeat xpath="category/label[@text = 'Herausgeberschaften' and @description= 'rtp']">
+                   <li>
+                    <xed:output value="../label[lang(concat('x-',$CurrentLang,'-long'))]/@text" />
+                    <xed:output value="../label[lang(concat('x-',$CurrentLang,'-long'))]/@description" />
+                    <br />
+                   </li>
+                  </xed:repeat> 
+                 </ul>
+                </td>
+               </tr>
+              </xed:if>
+              <xed:if test="category/label[(@text = 'Artikel' or @text='Articles') and @description= 'rtp']">
+                <tr>
+                   <td style="width: 225px;vertical-align:top;">
+                    <xed:output value="//category/label[@text = 'Artikel' or @text='Articles'][lang($CurrentLang)]/@text" />
+                   </td>
+                   <td>
+                    <ul>
+                    <xed:repeat xpath="category/label[@text = 'Artikel' and @description= 'rtp']">
+                      <li>
+                       <xed:output value="../label[lang(concat('x-',$CurrentLang,'-long'))]/@text" />
+                       <xed:output value="../label[lang(concat('x-',$CurrentLang,'-long'))]/@description" />
+                       <br />
+                      </li>
+                    </xed:repeat> 
+                   </ul>
+                  </td>
+                </tr>
+              </xed:if>
+              <xed:if test="category/label[(@text = 'Gastvorträge' or @text='Invited Talks') and @description= 'rtp']">
+                <tr>
+                   <td style="width: 225px;">
+                    <xed:output value="//category/label[@text = 'Gastvorträge' or @text='Invited Talks'][lang($CurrentLang)]/@text" />
+                   </td>
+                   <td>
+                    <ul>
+                    <xed:repeat xpath="category/label[@text = 'Gastvorträge' and @description= 'rtp']">
+                      <li>
+                       <xed:output value="../label[lang(concat('x-',$CurrentLang,'-long'))]/@text" />
+                       <xed:output value="../label[lang(concat('x-',$CurrentLang,'-long'))]/@description" />
+                       <br />
+                      </li>
+                    </xed:repeat> 
+                   </ul>
+                  </td>
+                </tr>
+              </xed:if>
+              <xed:if test="category/label[(@text = 'Konferenzen' or @text='Conferences') and @description= 'rtp']">
+                <tr>
+                   <td style="width: 225px;">
+                    <xed:output value="//category/label[@text = 'Konferenzen' or @text='Conferences'][lang($CurrentLang)]/@text" />
+                   </td>
+                   <td>
+                    <ul>
+                    <xed:repeat xpath="category/label[@text = 'Konferenzen' and @description= 'rtp']">
+                      <li>
+                       <xed:output value="../label[lang(concat('x-',$CurrentLang,'-long'))]/@text" />
+                       <xed:output value="../label[lang(concat('x-',$CurrentLang,'-long'))]/@description" />
+                       <br />
+                      </li>
+                    </xed:repeat> 
+                   </ul>
+                  </td>
+                </tr>
+              </xed:if>
+              <xed:if test="category/label[(@text = 'Softwareprojekte' or @text='Software Projects') and @description= 'rtp']">
+                <tr>
+                   <td style="width: 225px;">
+                    <xed:output value="//category/label[@text = 'Softwareprojekte' or @text='Software Projects'][lang($CurrentLang)]/@text" />
+                   </td>
+                   <td>
+                    <ul>
+                    <xed:repeat xpath="category/label[@text = 'Softwareprojekte' and @description= 'rtp']">
+                      <li>
+                       <xed:output value="../label[lang(concat('x-',$CurrentLang,'-long'))]/@text" />
+                       <xed:output value="../label[lang(concat('x-',$CurrentLang,'-long'))]/@description" />
+                       <br />
+                      </li>
+                    </xed:repeat> 
+                   </ul>
+                  </td>
+                </tr>
+              </xed:if>
+            </table>              
+          </xed:bind>
+       </div>    
+     </xed:form>
+    </div>    
+   </div>
+  </section> 
+  <meta>
+    <log date="2016-03-31" time="10:53" labelPath=" » Start" lastEditor="Hagen Peukert" />
+  </meta>
+  
+</MyCoReWebPage>

@@ -1,0 +1,38 @@
+<web-fragment xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-fragment_3_0.xsd" version="3.0">
+  <name>skeleton_module</name>
+  <!--servlet>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <servlet-class>custom.mycore.servlets.HelloWorldServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloWorldServlet</servlet-name>
+    <url-pattern>/HelloWorld</url-pattern>
+  </servlet-mapping-->
+  
+  <!--servlet>
+    <servlet-name>ProcessCorpusServlet</servlet-name>
+    <servlet-class>org.mycore.addons.morphilo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProcessCorpusServlet</servlet-name>
+    <url-pattern>/ProcessCorpus</url-pattern>
+  </servlet-mapping-->
+  <servlet>
+    <servlet-name>ProcessCorpusServlet</servlet-name>
+    <servlet-class>custom.mycore.addons.morphilo.ProcessCorpusServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProcessCorpusServlet</servlet-name>
+    <url-pattern>/servlets/object/process</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>TagCorpusServlet</servlet-name>
+    <servlet-class>custom.mycore.addons.morphilo.TagCorpusServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TagCorpusServlet</servlet-name>
+    <url-pattern>/servlets/object/tag</url-pattern>
+  </servlet-mapping>
+
+</web-fragment>

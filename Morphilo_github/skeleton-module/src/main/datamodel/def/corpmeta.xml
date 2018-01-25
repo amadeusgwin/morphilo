@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttype xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    name="corpmeta"
+    isChild="true"
+    isParent="true"
+    hasDerivates="true"
+    xsi:noNamespaceSchemaLocation="datamodel.xsd">
+    <metadata>    
+        <!-- Pflichtfelder -->
+        <element name="korpusname" type="text" minOccurs="1" maxOccurs="1" />
+        
+        <!-- Optionale Felder -->
+        <element name="sprache" type="text" minOccurs="0" maxOccurs="1" />
+        <element name="size" type="number" minOccurs="0" maxOccurs="1" />
+        <!--element name="datierung" type="historydate" minOccurs="0" maxOccurs="1" /-->
+        <element name="datefrom" type="text" minOccurs="0" maxOccurs="1" />
+        <element name="dateuntil" type="text" minOccurs="0" maxOccurs="1" />
+        <!--element name="corpuslink" type="link" minOccurs="0" maxOccurs="1" /-->
+        <!-- number of words -->
+        <element name="NoW" type="text" minOccurs="0" maxOccurs="1" />
+        <!-- number of words not available -->
+        <element name="NoWna" type="text" minOccurs="0" maxOccurs="1" />
+        <element name="corpuslink" type="link" minOccurs="0" maxOccurs="unbounded" >
+            <target type="morphilo" />
+        </element>
+    </metadata>
+</objecttype>

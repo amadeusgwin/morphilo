@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+
+ <!-- Please insert English version here -->
+ <section title="Install" xml:lang="en">
+  <div class="row">
+    <div class="col-md-8">
+     <h2>Installation Procedure</h2>   
+     <h3>Requirements</h3>
+		<p>
+		Provided that you have downloaded the <i>morphilo</i> package
+		from the <a href="download.xed" target="_blank">download
+		section</a> containing -- besides this documentation -- a folder with
+		three .jar-files (morextractor, morphilizer, morquery), a file named <i>dbentry</i>,
+		a <i>lib</i> folder with several class files and a SQL-file <i>InitialEntrySetup</i>.
+		You should save these files on your hard drive at a location
+		convenient to you.
+		</p>
+		<p>
+		The algorithm of the software requires tagged corpora in a
+		textfile format although showing the extension <i>.pos</i>. If you
+		have only plain texts without any annotations available, you may
+		choose a rule based (montytagger) or probablistic (stanford parser)
+		tagging method to automatically annotate the corpus. In the latter
+		case, you will have to correct the &quot;mistaggings&quot; manually
+		while running the Morphilizer component. Make sure you change the file
+		extension to <i>.pos</i>. Usually these taggers will save their
+		results as <i>.txt</i>.
+		</p>
+		<p>To set up the toolset, three steps have to be taken.</p>
+		<ol>
+			<li>item download MySQL-DBMS and install it</li>
+			<li>item set up data base schema and tables</li>
+			<li>item update the dbentry-file</li>
+		</ol>
+
+		<h3>Downloading MySQL and Installing the MySQL DBMS</h3>
+		If you have already an MySQL client installed and you have access to a
+		server with sufficient disc space, you can skip this step. If this is
+		not the case, you should download the MySQL-GE and the MySQL Workbench
+		GUI-tool from the <a href="http://www.mysql.de/downloads/"
+		target="_blank">MySQL webpage</a>. If you choose to run the database
+		on your hard drive, pick the community server download, klick the
+		downloaded file, and follow the instructions given there.
+		<p>Open the Workbench and set up a &quot;new server instance&quot;
+		either to your hard drive or to a remote server. For the latter, you
+		have to specify the IP-address and login details. Note down the
+		IP-address or <i>localhost</i> respectively, the username as well as
+		its password. Running it on your hard drive, the presets should
+		suffice, but make sure that the server is switched on when using it
+		(This is usually done in the system's setup). Then klick on &quot;new
+		connection&quot; and connect to the just created instance.</p>
+		<h3>Setting up data base schema and tables</h3>
+		<p>Open the Workbench, choose &quot;Open SQL Script ... &quot;
+		from the file menu, and browse to the morphilo package. Select
+		&quot;InitialEntrySetup.sql&quot; and confirm your choice. If you do
+		not like the preset database name <i>morphilodb</i>, you have to
+		update the SQL script. The easiest way to do this is to use a text
+		editor and to exchange each sequence of <i>morphilodb</i> by your
+		choice of a database name. Remember the name of the database. Finally,
+		choose from the <i>Query</i> menu, <i>Execute (All or Selection)</i>.
+		</p>
+		<p>
+		The script should run through without error. If it does not,
+		make sure you have not only selected parts of the SQL script. In case
+		you have made changes to the database name, check if you changed all
+		of the old name tags correctly.
+		</p>
+		<h3>Updating the entryDB-file</h3> 
+		<p>
+		The last step is to
+		configure the &quot;dbentry&quot; file. The &quot;dbentry&quot; file
+		should stay in the same directory as the <i>.jar-files</i>. If you
+		miss this step, you are asked at the start up of the Morphilizer or
+		Morquery tool to do so. The configuration is very simple and quickly
+		done, but you should pay attention to the order of each item you will
+		have to put in.
+		</p>
+		<p>
+		Open the file with a simple text editor. The first item to
+		occur in this file is the IP-address or name of the server. For hard
+		drive installations put &quot;localhost&quot; or
+		&quot;127.0.0.1&quot;. The second line must have the name of the
+		database. Preset is <i>morphilodb</i>. If you have changed it, put
+		down the new name. The third line should contain your password and the
+		last line specifies your username. Nothing else should be in the file.
+		Save and close it. You are now ready to start the morphological
+		analysis.
+		</p>
+      
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+ </section>
+  
+ <section title="Installation" xml:lang="de">
+  <div class="row">
+   <div class="col-md-8">
+    <h2>Installationshinweise</h2>
+		<p>Provided that you have downloaded the <i>morphilo</i> package
+		from the <a href="download.xed" target="_blank">download
+		section</a> containing -- besides this documentation -- a folder with
+		three .jar-files (morextractor, morphilizer, morquery), a file named <i>dbentry</i>,
+		a <i>lib</i> folder with several class files and a SQL-file <i>InitialEntrySetup</i>.
+		You should save these files on your hard drive at a location
+		convenient to you.</p>
+		<p>The algorithm of the software requires tagged corpora in a
+		textfile format although showing the extension <i>.pos</i>. If you
+		have only plain texts without any annotations available, you may
+		choose a rule based (montytagger) or probablistic (stanford parser)
+		tagging method to automatically annotate the corpus. In the latter
+		case, you will have to correct the &quot;mistaggings&quot; manually
+		while running the Morphilizer component. Make sure you change the file
+		extension to <i>.pos</i>. Usually these taggers will save their
+		results as <i>.txt</i>.</p>
+		<p>To set up the toolset, three steps have to be taken.</p>
+		<ol>
+			<li>item download MySQL-DBMS and install it</li>
+			<li>item set up data base schema and tables</li>
+			<li>item update the dbentry-file</li>
+		</ol>
+
+		<h3>Downloading MySQL and Installing the MySQL DBMS</h3>
+		If you have already an MySQL client installed and you have access to a
+		server with sufficient disc space, you can skip this step. If this is
+		not the case, you should download the MySQL-GE and the MySQL Workbench
+		GUI-tool from the <a href="http://www.mysql.de/downloads/"
+			target="_blank">MySQL webpage</a>. If you choose to run the database
+		on your hard drive, pick the community server download, klick the
+		downloaded file, and follow the instructions given there.
+		<p>Open the Workbench and set up a &quot;new server instance&quot;
+		either to your hard drive or to a remote server. For the latter, you
+		have to specify the IP-address and login details. Note down the
+		IP-address or <i>localhost</i> respectively, the username as well as
+		its password. Running it on your hard drive, the presets should
+		suffice, but make sure that the server is switched on when using it
+		(This is usually done in the system's setup). Then klick on &quot;new
+		connection&quot; and connect to the just created instance.</p>
+		<h3>Setting up data base schema and tables</h3>
+		<p>Open the Workbench, choose &quot;Open SQL Script ...&quot;
+		from the file menu, and browse to the morphilo package. Select
+		&quot;InitialEntrySetup.sql&quot; and confirm your choice. If you do
+		not like the preset database name <i>morphilodb</i>, you have to
+		update the SQL script. The easiest way to do this is to use a text
+		editor and to exchange each sequence of <i>morphilodb</i> by your
+		choice of a database name. Remember the name of the database. Finally,
+		choose from the <i>Query</i> menu, <i>Execute (All or Selection)</i>.
+		</p>
+		<p>The script should run through without error. If it does not,
+		make sure you have not only selected parts of the SQL script. In case
+		you have made changes to the database name, check if you changed all
+		of the old name tags correctly.</p>
+		<h3>Updating the entryDB-file</h3> 
+		<p>The last step is to
+		configure the &quot;dbentry&quot; file. The &quot;dbentry&quot; file
+		should stay in the same directory as the <i>.jar-files</i>. If you
+		miss this step, you are asked at the start up of the Morphilizer or
+		Morquery tool to do so. The configuration is very simple and quickly
+		done, but you should pay attention to the order of each item you will
+		have to put in.</p>
+		<p>Open the file with a simple text editor. The first item to
+		occur in this file is the IP-address or name of the server. For hard
+		drive installations put &quot;localhost&quot; or
+		&quot;127.0.0.1&quot;. The second line must have the name of the
+		database. Preset is <i>morphilodb</i>. If you have changed it, put
+		down the new name. The third line should contain your password and the
+		last line specifies your username. Nothing else should be in the file.
+		Save and close it. You are now ready to start the morphological
+		analysis.</p>  
+   </div>
+   <div class="col-md-4">
+   </div>
+  </div>
+ </section>
+  
+  <meta>
+    <log date="2016-03-31" time="10:53" labelPath=" » Start" lastEditor="Hagen Peukert" />
+  </meta>
+  
+</MyCoReWebPage>

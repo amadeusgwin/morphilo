@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+
+ <!-- Please insert English version here -->
+ <section title="Documentation" xml:lang="en">
+  <div class="row">
+    <div class="col-md-8">
+     <h2>Documentation</h2>   
+     <h3>Loose coupling by interfaces</h3>
+     <img src="../../images/AffixUML.png"/>
+     <h3>Overall architecture and design (observer pattern)</h3>
+     <img src="../../images/WordUML.png"/>
+     <h3>Database Accessibility and Matching Process</h3>
+     <img src="../../images/morphilo.png"/>
+     <h3>Morphilizer sequence diagramm</h3>
+     <img src="../../images/sequence.jpg"/>      
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+ </section>
+  
+ <section title="Dokumentation" xml:lang="de">
+  <div class="row">
+   <div class="col-md-8">
+    <h2>Dokumentation</h2>
+    <h3>Lose Kopplung durch Interfaces</h3>
+    <img src="../../images/AffixUML.png"/>
+    <h3>Architektur und Entwurfsmuster (Beobachter)</h3>
+    <img src="../../images/WordUML.png"/>
+    <h3>Datenbankzugriff und Abgleich</h3>
+    <img src="../../images/morphilo.png"/>
+    <h3>Morphilizer Ablaufdiagramm</h3>
+    <img src="../../images/sequence.jpg"/>
+   </div>
+   <div class="col-md-4">
+   </div>
+  </div>
+ </section>
+  
+  <meta>
+    <log date="2016-03-31" time="10:53" labelPath=" » Start" lastEditor="Hagen Peukert" />
+  </meta>
+  
+</MyCoReWebPage>

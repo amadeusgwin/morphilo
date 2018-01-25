@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+
+ <!-- Please insert English version here -->
+ <section title="Usage" xml:lang="en">
+  <div class="row">
+    <div class="col-md-8">
+     <h2>Using the Toolset</h2>   
+     <h3>General Procedure</h3>
+		<p>After the installation procedure and database setup, you are
+		ready to use the software. The software package is designed to analyze
+		derivational morphology in the course of time using large corpora. It
+		comprises several steps.</p>
+		<p>First, the corpus data have to be pre-analyzed, that is,
+		conveyed to a form that is easier to process in terms of derivational
+		morphology. This is done by Morextractor. It assigns additional tags
+		to the words of a corpus revealing possible affixes and compounds.
+		Depending on the speed of your system, this may take up to <i>30</i>
+		minutes for very large corpora, since the enumerated lists of suffixes
+		and prefixes contain all allomorphemic variants, which add up to
+		several <i>1,000</i> items.</p>
+		<p>The second step involves manual work. The Morphilizer software
+		will support you in correcting the automatic analysis wherever words
+		are oversegmented. Each word has to be analyzed only once for each
+		time period. All other occurrences are automatically readjusted and
+		saved in the database.</p>
+		<p>Once you have finished your analysis, you can query your data.
+		For all queries start the Morquery tool by double clicking the
+		respective jar-file.</p>
+		<h3>Morextractor</h3>
+		<p>Double click the morextractor.jar file to start working on
+		diachronic morphological analyses.</p>
+		<img src="../../images/morextractor.png" width="500" alt="morextractor"
+			title="MoreXtractor" />
+		<p>A simple platform will enable you to browse to the folder of
+		your tagged corpus files. Notice again that only <i>.pos</i>-files
+		will be selectable. Morextractor will always process all files of the
+		selected folder. If you wish to process single files, you have to copy
+		them to separate folders and select them one after another. This
+		ensures that you will not double-pick one file and thus this prevents
+		skewing the quantitative analyses. Also select a destination where a
+		file system consisting of several folders will be set up automatically
+		by the software. The folder in which the preprocessed files are
+		written to is called <i>wordlist</i>. You may also choose to restrict
+		the analysis to one specific word form by checking the respective box.
+		Otherwise choose the <i>all</i> check box. The text field at the
+		bottom of the tool prompts you with possible errors, data
+		inconsistencies, or the determination of the automatic analysis. Once
+		all calculations are finished, you can proceed with finetuning these
+		results using the Morphilizer tool.</p>
+		<h3>Morphilizer</h3>
+		<p>The following figure displays the user interface for the
+		Morphilizer component.</p>
+		<img src="../../images/morphilizer.png" width="700" alt="morphilizer"
+			title="MorPhilizer" />
+		<p>The first step is to choose the preprocessed file as described
+		in the previous chapter. You find the file in the <i>wordlist</i>
+		folder. Select it in the <i>file selection</i> section and choose a
+		corpus in the <i>corpus specification</i> section from the drop down
+		menu or by individual specification in the respective text fields.
+		Then press <i>start</i>. Morphilizer will now check all tokens for an
+		entry in the database. If tokens do already have an entry, the
+		respective database tables are updated and the tokens are deleted from
+		the <i>wordlist</i>-file. Depending on the size of the <i>wordlist</i>-file
+		this may take several minutes.</p>
+		<p>Once this mapping is done, the first entry is displayed in the
+		<i>Derivation</i> section on the left side of the user interface. You
+		have to make a choice on whether Morextractor assigned the correct
+		affix or composition information. Use the radio buttons to correct
+		false mappings or press the <i>skip</i>-button to exclude the entry in
+		the analysis. All skipped items are saved to an extra list, which can
+		be further analyzed at a later point in time.</p>
+		<p>It is recommendable to consult the OED online dictionary to
+		make the correct choices since the line between composition and
+		affixation is far from clear-cut. This is especially true for
+		diachronic data (e.g. the Middle English Period). From our experience,
+		it is best to place the OED online interface right next to the
+		Morphilizer tool. Whenever uncertainties in the analysis arise, you
+		can check the time-usage pattern in the etymology section of the OED.
+		When your sure of the morphological make-up of the token, press <i>OK</i>.
+		The entry is now stored in the database. For the given time, you will
+		not have to do the analysis of this item again. Once the database
+		grows larger in size, there will be only little tokens left that need
+		an extensive research on their affixation.</p>
+		<p>PENN Parsed Corpora traditionally encode composita. If this is
+		the case, they are automatically put in the <i>Compounding</i>
+		section. Unfortunately, the underlying definition of what compounds
+		are is not convincingly put into practice in terms of the corpus
+		annotations as many composita are missed. If a word is really a
+		compound but not annotated as such by the corpus annotations, select
+		the <i>compound</i> radio button. The compositum will then be
+		displayed at the right hand for further analysis. You may have to
+		manually write each free morpheme of the compound to one of the
+		specified text fields, select its word form, specify the head
+		information, and make a choice on the compound type (endocentric,
+		exocentric, dvandva, or appositional). After pressing the <i>OK</i>
+		button here, each of the specified morphemes can be analyzed for its
+		derivational structure in the <i>Derivation</i> section.</p>
+		<p>Last, the <i>Processing Prompts</i> section gives you a
+		feedback on the state and success of all major operations carried out
+		(e.g. whether a word was successfully written to the database or
+		failed to do so).</p>
+		<h3>Morquery</h3>
+		<p>The Morquery component is a query tool that is also available
+		as an <a href="../servlets/MCRServlet3LoginServlet?url=http://localhost:8080/morphilo/software/download.xml">online
+		interface</a>.</p>
+		<img src="../../images/morquery.png" width="500" alt="morquery"
+			title="MorQuery" />
+		<p>It simplifies long SQL statements by selecting a combination of
+		drop down menus and check boxes. You just have to choose the
+		information of interest from the drop down menus and the information
+		is translated to an SQL query and executed. The menus provide you with
+		types and tokens of all affixes, compounds, words or subsets thereof,
+		either morphemes or allomorphs as well as their position and head
+		information. It is also possible to enter full SQL statements in the
+		SQL query section. The most common queries can also be selected in a
+		drop down menu. The <i>Results</i> text area displays all query
+		results. They can be saved as a textfile by hitting the save button.</p>
+    </div>
+    <div class="col-md-4">
+    </div>
+  </div>
+ </section>
+  
+ <section title="Bedienung" xml:lang="de">
+  <div class="row">
+   <div class="col-md-8">
+    <h2>Bedienungshinweise</h2>
+		<p>After the installation procedure and database setup, you are
+		ready to use the software. The software package is designed to analyze
+		derivational morphology in the course of time using large corpora. It
+		comprises several steps.</p>
+		<p>First, the corpus data have to be pre-analyzed, that is,
+		conveyed to a form that is easier to process in terms of derivational
+		morphology. This is done by Morextractor. It assigns additional tags
+		to the words of a corpus revealing possible affixes and compounds.
+		Depending on the speed of your system, this may take up to <i>30</i>
+		minutes for very large corpora, since the enumerated lists of suffixes
+		and prefixes contain all allomorphemic variants, which add up to
+		several <i>1,000</i> items.</p>
+		<p>The second step involves manual work. The Morphilizer software
+		will support you in correcting the automatic analysis wherever words
+		are oversegmented. Each word has to be analyzed only once for each
+		time period. All other occurrences are automatically readjusted and
+		saved in the database.</p>
+		<p>Once you have finished your analysis, you can query your data.
+		For all queries start the Morquery tool by double clicking the
+		respective jar-file.</p>
+		<h3>Morextractor</h3>
+		<p>Double click the morextractor.jar file to start working on
+		diachronic morphological analyses.</p>
+		<img src="../../images/morextractor.png" width="500" alt="morextractor"
+			title="MoreXtractor" />
+		<p>A simple platform will enable you to browse to the folder of
+		your tagged corpus files. Notice again that only <i>.pos</i>-files
+		will be selectable. Morextractor will always process all files of the
+		selected folder. If you wish to process single files, you have to copy
+		them to separate folders and select them one after another. This
+		ensures that you will not double-pick one file and thus this prevents
+		skewing the quantitative analyses. Also select a destination where a
+		file system consisting of several folders will be set up automatically
+		by the software. The folder in which the preprocessed files are
+		written to is called <i>wordlist</i>. You may also choose to restrict
+		the analysis to one specific word form by checking the respective box.
+		Otherwise choose the <i>all</i> check box. The text field at the
+		bottom of the tool prompts you with possible errors, data
+		inconsistencies, or the determination of the automatic analysis. Once
+		all calculations are finished, you can proceed with finetuning these
+		results using the Morphilizer tool.</p>
+		<h3>Morphilizer</h3>
+		<p>The following figure displays the user interface for the
+		Morphilizer component.</p>
+		<img src="../../images/morphilizer.png" width="700" alt="morphilizer"
+			title="MorPhilizer" />
+		<p>The first step is to choose the preprocessed file as described
+		in the previous chapter. You find the file in the <i>wordlist</i>
+		folder. Select it in the <i>file selection</i> section and choose a
+		corpus in the <i>corpus specification</i> section from the drop down
+		menu or by individual specification in the respective text fields.
+		Then press <i>start</i>. Morphilizer will now check all tokens for an
+		entry in the database. If tokens do already have an entry, the
+		respective database tables are updated and the tokens are deleted from
+		the <i>wordlist</i>-file. Depending on the size of the <i>wordlist</i>-file
+		this may take several minutes.</p>
+		<p>Once this mapping is done, the first entry is displayed in the
+		<i>Derivation</i> section on the left side of the user interface. You
+		have to make a choice on whether Morextractor assigned the correct
+		affix or composition information. Use the radio buttons to correct
+		false mappings or press the <i>skip</i>-button to exclude the entry in
+		the analysis. All skipped items are saved to an extra list, which can
+		be further analyzed at a later point in time.</p>
+		<p>It is recommendable to consult the OED online dictionary to
+		make the correct choices since the line between composition and
+		affixation is far from clear-cut. This is especially true for
+		diachronic data (e.g. the Middle English Period). From our experience,
+		it is best to place the OED online interface right next to the
+		Morphilizer tool. Whenever uncertainties in the analysis arise, you
+		can check the time-usage pattern in the etymology section of the OED.
+		When your sure of the morphological make-up of the token, press <i>OK</i>.
+		The entry is now stored in the database. For the given time, you will
+		not have to do the analysis of this item again. Once the database
+		grows larger in size, there will be only little tokens left that need
+		an extensive research on their affixation.</p>
+		<p>PENN Parsed Corpora traditionally encode composita. If this is
+		the case, they are automatically put in the <i>Compounding</i>
+		section. Unfortunately, the underlying definition of what compounds
+		are is not convincingly put into practice in terms of the corpus
+		annotations as many composita are missed. If a word is really a
+		compound but not annotated as such by the corpus annotations, select
+		the <i>compound</i> radio button. The compositum will then be
+		displayed at the right hand for further analysis. You may have to
+		manually write each free morpheme of the compound to one of the
+		specified text fields, select its word form, specify the head
+		information, and make a choice on the compound type (endocentric,
+		exocentric, dvandva, or appositional). After pressing the <i>OK</i>
+		button here, each of the specified morphemes can be analyzed for its
+		derivational structure in the <i>Derivation</i> section.</p>
+		<p>Last, the <i>Processing Prompts</i> section gives you a
+		feedback on the state and success of all major operations carried out
+		(e.g. whether a word was successfully written to the database or
+		failed to do so).</p>
+		<h3>Morquery</h3>
+		<p>The Morquery component is a query tool that is also available
+		as an <a href="../servlets/MCRServlet3LoginServlet?url=http://localhost:8080/morphilo/software/download.xml">online
+		interface</a>.</p>
+		<img src="../../images/morquery.png" width="500" alt="morquery"
+			title="MorQuery" />
+		<p>It simplifies long SQL statements by selecting a combination of
+		drop down menus and check boxes. You just have to choose the
+		information of interest from the drop down menus and the information
+		is translated to an SQL query and executed. The menus provide you with
+		types and tokens of all affixes, compounds, words or subsets thereof,
+		either morphemes or allomorphs as well as their position and head
+		information. It is also possible to enter full SQL statements in the
+		SQL query section. The most common queries can also be selected in a
+		drop down menu. The <i>Results</i> text area displays all query
+		results. They can be saved as a textfile by hitting the save button.</p>  
+   </div>
+   <div class="col-md-4">
+   </div>
+  </div>
+ </section>
+  
+  <meta>
+    <log date="2016-03-31" time="10:53" labelPath=" » Start" lastEditor="Hagen Peukert" />
+  </meta>
+  
+</MyCoReWebPage>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="pos">
+    <label xml:lang="de" text="POS" description="Part of Speech" />
+    <label xml:lang="en" text="POS" description="Part of Speech" />
+    <categories>
+        <category ID="CC">
+            <label xml:lang="de" text="Konjunktion koordinierend" />
+            <label xml:lang="en" text="Coordinating conjunction" />
+        </category>
+        <category ID="CD">
+            <label xml:lang="de" text="Kardinal" />
+            <label xml:lang="en" text="Cardinal number" />
+        </category>
+        <category ID="DT">
+            <label xml:lang="de" text="Artikel" />
+            <label xml:lang="en" text="Determiner" />
+        </category>
+        <category ID="EX">
+            <label xml:lang="de" text="there existentiell" />
+            <label xml:lang="en" text="Existential there" />
+        </category>
+        <category ID="FW">
+            <label xml:lang="de" text="Fremdwort" />
+            <label xml:lang="en" text="Foreign Word" />
+        </category>
+        <category ID="IN">
+            <label xml:lang="de" text="Präposition" />
+            <label xml:lang="en" text="Prepositon" />
+        </category>
+        <category ID="JJ">
+            <label xml:lang="de" text="Adjektiv" />
+            <label xml:lang="en" text="Adjective" />
+        </category>
+        <category ID="JJR">
+            <label xml:lang="de" text="Komparatives Adjektiv" />
+            <label xml:lang="en" text="Comparative adjective" />
+        </category>
+        <category ID="JJS">
+            <label xml:lang="de" text="Superlatives Adjektiv" />
+            <label xml:lang="en" text="Superlative adjective" />
+        </category>
+        <category ID="LS">
+            <label xml:lang="de" text="Listenzeichen" />
+            <label xml:lang="en" text="Item marker" />
+        </category>
+        <category ID="MD">
+            <label xml:lang="de" text="Modalwort" />
+            <label xml:lang="en" text="Modal" />
+        </category>
+        <category ID="NN">
+            <label xml:lang="de" text="Nomen (Singular, Massen-)" />
+            <label xml:lang="en" text="Noun (singular or mass)" />
+        </category>
+        <category ID="NNS">
+            <label xml:lang="de" text="Nomen, Plural" />
+            <label xml:lang="en" text="Noun, plural" />
+        </category>
+        <category ID="NNP">
+            <label xml:lang="de" text="Eigenname, Singular" />
+            <label xml:lang="en" text="Proper noun, singular" />
+        </category>
+        <category ID="NNPS">
+            <label xml:lang="de" text="Eigenname, Plural" />
+            <label xml:lang="en" text="Proper noun, plural" />
+        </category>
+        <category ID="PDT">
+            <label xml:lang="de" text="Prädeterminierer" />
+            <label xml:lang="en" text="Predeterminer" />
+        </category>
+        <category ID="POS">
+            <label xml:lang="de" text="Possessivendung" />
+            <label xml:lang="en" text="Possessive ending" />
+        </category>
+        <category ID="PRP">
+            <label xml:lang="de" text="Personalpronomen" />
+            <label xml:lang="en" text="Personal pronoun" />
+        </category>
+        <category ID="PRPs">
+            <label xml:lang="de" text="Possessivpronomen" />
+            <label xml:lang="en" text="Possessive pronoun" />
+        </category>
+        <category ID="RB">
+            <label xml:lang="de" text="Adverb" />
+            <label xml:lang="en" text="Adverb" />
+        </category>
+        <category ID="RBR">
+            <label xml:lang="de" text="Adverb, Komparativ" />
+            <label xml:lang="en" text="Adverb, comparative" />
+        </category>
+        <category ID="RBS">
+            <label xml:lang="de" text="Adverb, Superlativ" />
+            <label xml:lang="en" text="Adverb, superlative" />
+        </category>
+        <category ID="RP">
+            <label xml:lang="de" text="Partikel" />
+            <label xml:lang="en" text="Particle" />
+        </category>
+        <category ID="SYM">
+            <label xml:lang="de" text="Symbol" />
+            <label xml:lang="en" text="Symbol" />
+        </category>
+        <category ID="TO">
+            <label xml:lang="de" text="To" />
+            <label xml:lang="en" text="to" />
+        </category>
+        <category ID="UH">
+            <label xml:lang="de" text="Interjektion" />
+            <label xml:lang="en" text="Interjection" />
+        </category>
+        <category ID="VB">
+            <label xml:lang="de" text="Verb, Infinitiv" />
+            <label xml:lang="en" text="Verb, base form" />
+        </category>
+        <category ID="VBD">
+            <label xml:lang="de" text="Verb, Vergangenheit" />
+            <label xml:lang="en" text="Verb, past tense" />
+        </category>
+        <category ID="VBG">
+            <label xml:lang="de" text="Verb, Gerundium, Gegenwartspartizip" />
+            <label xml:lang="en" text="Verb, gerund, present participle" />
+        </category>
+        <category ID="VBN">
+            <label xml:lang="de" text="Verb, Vergangenheitspartizip" />
+            <label xml:lang="en" text="Verb, past participle" />
+        </category>
+        <category ID="VBP">
+            <label xml:lang="de" text="Verb, keine 3. Person Singular Gegenwart" />
+            <label xml:lang="en" text="Verb, non-3rd person singular present" />
+        </category>
+        <category ID="VBZ">
+            <label xml:lang="de" text="Verb, 3. Person Singular Gegenwart" />
+            <label xml:lang="en" text="Verb, 3rd person singular present" />
+        </category>
+        <category ID="WDT">
+            <label xml:lang="de" text="Wh-Artikel" />
+            <label xml:lang="en" text="Wh-determiner" />
+        </category>
+        <category ID="WP">
+            <label xml:lang="de" text="Wh-Pronomen" />
+            <label xml:lang="en" text="Wh-pronoun" />
+        </category>
+        <category ID="WPs">
+            <label xml:lang="de" text="Possessives wh-Pronomen" />
+            <label xml:lang="en" text="Possessive wh-pronoun" />
+        </category>
+        <category ID="WRB">
+            <label xml:lang="de" text="Ah-Adverb" />
+            <label xml:lang="en" text="Wh-adverb" />
+        </category>
+    </categories>
+</mycoreclass>

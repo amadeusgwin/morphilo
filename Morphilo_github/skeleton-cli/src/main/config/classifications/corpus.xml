@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="corpus">
+    <label xml:lang="de" text="Korpus" description="Korpus, aus denen zu annotierende Wörter stammen" />
+    <label xml:lang="en" text="Corpus" description="Corpus from which words to be annotated come from" />
+    <categories>
+        <category ID="M1">
+            <label xml:lang="de" text="M1" />
+            <label xml:lang="en" text="M1" />
+        </category>
+        <category ID="M2">
+            <label xml:lang="de" text="M2" />
+            <label xml:lang="en" text="M2" />
+        </category>
+        <category ID="M3">
+            <label xml:lang="de" text="M3" />
+            <label xml:lang="en" text="M3" />
+        </category>
+        <category ID="M4">
+            <label xml:lang="de" text="M4" />
+            <label xml:lang="en" text="M4" />
+        </category>
+        <category ID="E1">
+            <label xml:lang="de" text="E1" />
+            <label xml:lang="en" text="E1" />
+        </category>
+        <category ID="E2">
+            <label xml:lang="de" text="E2" />
+            <label xml:lang="en" text="E2" />
+        </category>
+        <category ID="E3">
+            <label xml:lang="de" text="E3" />
+            <label xml:lang="en" text="E3" />
+        </category>
+        <category ID="Mod1">
+            <label xml:lang="de" text="Mod1" />
+            <label xml:lang="en" text="Mod1" />
+        </category>
+        <category ID="Mod2">
+            <label xml:lang="de" text="Mod2" />
+            <label xml:lang="en" text="Mod2" />
+        </category>
+        <category ID="Mod3">
+            <label xml:lang="de" text="Mod3" />
+            <label xml:lang="en" text="Mod3" />
+        </category>
+    </categories>
+</mycoreclass>

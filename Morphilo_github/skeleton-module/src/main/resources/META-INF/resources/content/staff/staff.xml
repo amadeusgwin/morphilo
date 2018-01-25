@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+  
+  <section title="Staff" xml:lang="en">
+  <!-- Please insert English version here -->
+  <div class="row">
+      <div class="col-md-10">
+        <h2>Staff</h2>
+
+        <div class="morphiltable">
+          <table>
+	        <tr>
+		        <td>
+		         <a href="#">
+                          <img src="../../images/hpeukert2.jpg" />
+                         </a>
+                         <br />
+		        </td>
+		        <td>
+		         <ul>
+		          <li style="list-style-type: none">
+		           <h2>Dr. Hagen Peukert</h2>
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+	         <tr>
+		        <td>Research (Post Doc)</td>
+		        <td>
+		         <ul>
+		          <li>University of Hamburg, Project: Linguistic Diversity Management in Urban Areas (LiMA)
+		           <ul>
+		            <li>
+		             Strategies of Sustainability of Research Data
+		            </li>
+		            <li>
+		             Historical Approaches to Multilingualism
+		            </li>
+		            <li>
+		             Economic Approaches to Multilingualism
+		            </li>
+		            <li>
+		             Language and Space
+		            </li>
+		           </ul>
+		          </li>
+		          <li>
+		           University of Kassel, Project: Open Philosophies for Associative Autopoietic Ecosystems (OPAALS)
+		           <ul>
+		            <li>
+		             Semantic Network Theory and Ontological Design
+		            </li>
+		            <li>
+		             Semantic Business Vocabulary Rules (SBVR)
+		            </li>
+		            <li>
+		             Natural Language Processing (Statistical Syntactic Parsing)
+		            </li>
+		           </ul>
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+	        <tr>
+		        <td>Research (PhD)</td>
+		        <td>
+		        <ul>
+		          <li>University of Kassel, Semi-Structured PhD Program (Linguistics &amp; Computer Science)
+		           <ul>
+		            <li>
+		             First Language Acquisition
+		            </li>
+		            <li>
+		             Psycholinguistic Computational Modeling
+		            </li>
+		            <li>
+		             Word Recognition Models
+		            </li>
+		            <li>
+		             Statistical Speech and Language Processing
+		            </li>
+		           </ul>
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>     
+                <tr>
+		        <td>Work</td>
+		        <td>
+		        <ul>
+		          <li>University of Hamburg, Project: Infrastructures of Sustainable Research Data in the Humanities (gwin)
+		           <ul>
+		            <li>
+		             Curation of research data of all branches in the Humanities
+		            </li>
+		            <li>
+		             Document Repositories
+		            </li>
+		           </ul>
+		          </li>
+		          <li>
+		           University of Bremen: Visiting professor of Applied Linguistics and Linguistic Data Processing
+		           <ul>
+		            <li>
+		             Teaching in Computational Linguistics: BA &amp; MA courses to syntactic and semantic processing, applications, theories, methods
+		            </li>
+		            <li>
+		             Teching in English-Speaking Cultures: Morphology
+		            </li>
+		           </ul>
+		          </li>
+		          <li>University of Hamburg, Data and Corpus Center 
+		           <ul>
+		            <li>
+		             Corpus Analysis Software
+		            </li>
+		            <li>
+		             LiPS Data Architecture and Design
+		            </li>
+		            <li>
+		             Strategic Project Management
+		            </li>
+		            <li>
+		             Fund Raising
+		            </li>
+		            <li>
+		             Teaching introductory courses to English Linguistics
+		            </li>
+		           </ul>
+		          </li>
+		          <li>University of Kassel, Lecturing and Project Management  
+		           <ul>
+		            <li>
+		             Classes in English Linguistics, Psycholinguistics, Typology and Formal Semantics
+		            </li>
+		            <li>
+		             Classes in Applied Computational Linguistics (Java, Python, Corpus Data Extraction and Analysis, Ontology Building)
+		            </li>
+		            <li>
+		             OPAALS Project Management (Reporting, Auditing, Progress)
+		            </li>
+		            <li>
+		             Fund Raising
+		            </li>
+		           </ul>
+		          </li>
+		           <li>Hessian Academy for Business Sudies and Economics (VWA)   
+		           <ul>
+		            <li>
+		             Visual Communication
+		            </li>
+		           </ul>
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+	        <tr>
+		        <td>Graduate Degrees</td>
+		        <td>
+		        <ul>
+		          <li>
+		           English Linguistics (Majors: Cognitive Linguistics, Computational Linguistics)
+		          </li>
+		          <li>
+		           MBA (Majors: International Marketing, Game Theory)
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+	        <tr>
+		        <td>Study Visits (>1 year)</td>
+		        <td>
+		         <ul>
+		          <li>
+		           University of Maryland, College Park (USA)
+		          </li>
+		          <li>
+		           Universidad de Valencia (Spain)
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+	        <tr>
+		        <td>Internships</td>
+		        <td>
+		         <ul>
+		          <li>Maharaja, Jaipur (India)
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+	        <tr>
+		        <td>Languages</td>
+		        <td>
+		         <ul>
+		          <li>
+		           English, Spanish, Russsian, Java, Python
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+          </table>
+       </div> 
+      </div>
+    <div class="col-md-2">
+    </div>
+   </div>
+  </section>
+        
+  <section title="Mitarbeiter" xml:lang="de">
+    <div class="row">
+      <div class="col-md-10">
+        <h2>Mitarbeiter</h2>
+        <div class="morphiltable">
+          <table>
+	        <tr>
+	         <td>
+	           <a href="#">
+                     <img src="../../images/hpeukert2.jpg" />
+                   </a>
+                   <br />
+                 </td>
+		 <td>
+		  <ul>
+		    <li style="list-style-type: none">
+		      <h2>Dr. Hagen Peukert</h2>
+		    </li>
+		  </ul>
+		 </td>
+		</tr>
+                <tr>
+		        <td>Forschungstätigkeit (Post Doc)</td>
+		        <td>
+		         <ul>
+		          <li>Universität Hamburg, ProjeKt: Linguistic Diversity Management in Urban Areas (LiMA)
+		           <ul>
+		            <li>
+		             Nachhaltigkeitsstrategien von Forschungsdaten
+		            </li>
+		            <li>
+		             Historische Ansätze zur Mehrsprachigkeit
+		            </li>
+		            <li>
+		             Ökonomische Ansätze zur Mehrsprachigkeit
+		            </li>
+		            <li>
+		             Sprache und Raum
+		            </li>
+		           </ul>
+		          </li>
+		          <li>
+		           University of Kassel, Project: Open Philosophies for Associative Autopoietic Ecosystems (OPAALS)
+		           <ul>
+		            <li>
+		             Semantische Netzwerktheorie und Ontologieentwurf
+		            </li>
+		            <li>
+		             Semantic Business Vocabulary Rules (SBVR)
+		            </li>
+		            <li>
+		             Sprachverarbeitung (Statistisches Syntaxparsing)
+		            </li>
+		           </ul>
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+	        <tr>
+		        <td>Forschungstätigkeit (PhD)</td>
+		        <td>
+		        <ul>
+		          <li>Universität Kassel, semi-strukturierte Promotion (Linguistik &amp; Informatik)
+		           <ul>
+		            <li>
+		             Erspracherwerb
+		            </li>
+		            <li>
+		             Psycholinguistische Computermodellierung
+		            </li>
+		            <li>
+		             Workerkennungsmodelle
+		            </li>
+		            <li>
+		             Statistische Sprach- und Sprachsignalverarbeitung
+		            </li>
+		           </ul>
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>     
+                <tr>
+		        <td>Operative Tätigkeiten</td>
+		        <td>
+		        <ul>
+		          <li>Universität Hamburg, Projekt: Geisteswissenschaftliche Infrastrukturen für Nachhaltigkeit (gwin)
+		           <ul>
+		            <li>
+		             Kuration unterschiedlicher geisteswissenschaftlicher Forschungsdaten
+		            </li>
+		            <li>
+		             Dokumentenserver
+		            </li>
+		           </ul>
+		          </li>
+		          <li>
+		           Universität Bremen: Gastprofessur für Angewandte Linguistik und Linguistische Datenverarbeitung
+		           <ul>
+		            <li>
+		             Lehre Computerlinguistik: BA &amp; MA Veranstaltung zur syntaktischen und semantischen Sprachverarbeitung, Anwendungen, Theories, Methoden
+		            </li>
+		            <li>
+		             Lehre English-Speaking Cultures: Morphologie
+		            </li>
+		           </ul>
+		          </li>
+		          <li>Universität Hamburg, Daten- und Korpuszentrum
+		           <ul>
+		            <li>
+		             Korpusanalyse-Software für Texte des Mittel- und Neuenglischen
+		            </li>
+		            <li>
+		             Architektur und Entwurf zur Verarbeitung der LiPS Projektmanagementdaten
+		            </li>
+		            <li>
+		             Strategisches Projektmanagement
+		            </li>
+		            <li>
+		             Drittmitteleinwerbung
+		            </li>
+		            <li>
+		             Lehre: Einführende Veranstaltung in die Linguistik des Englischen und statistische Methoden der Linguistik
+		            </li>
+		           </ul>
+		          </li>
+		          <li>Universität Kassel, Lehre und Projektmanagement 
+		           <ul>
+		            <li>
+		             Lehre: Einführung Englische Linguistik, Psycholinguistik, Typologie und Formale Semantik
+		            </li>
+		            <li>
+		             Veranstatlung in angewandter Computerlinguistik (Java, Python, Corpus Data Extraction and Analysis, Ontology Building)
+		            </li>
+		            <li>
+		             OPAALS Projektmanagement (Steuerung, Audit, Koordination)
+		            </li>
+		            <li>
+		             Drittmitteleinwerbung
+		            </li>
+		           </ul>
+		          </li>
+		           <li>Hessische Verwaltungs- und Wirtschaftsakademie (VWA)  
+		           <ul>
+		            <li>
+		             Visuelle Kommunikation
+		            </li>
+		           </ul>
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+	        <tr>
+		        <td>Masterabschlüsse</td>
+		        <td>
+		        <ul>
+		          <li>
+		           Amerikanistik (Schwerpunkte: Cognitive Linguistics, Computational Linguistics)
+		          </li>
+		          <li>
+		           MBA (Schwerpunkte: Internationales Marketing, Spieltheorie)
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+	        <tr>
+		        <td>Studienaufenthalte (>1 year)</td>
+		        <td>
+		         <ul>
+		          <li>
+		           University of Maryland, College Park (USA)
+		          </li>
+		          <li>
+		           Universidad de Valencia (Spain)
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+	        <tr>
+		        <td>Praktika</td>
+		        <td>
+		         <ul>
+		          <li>Maharaja, Jaipur (India)
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+	        <tr>
+		        <td>Sprachen</td>
+		        <td>
+		         <ul>
+		          <li>
+		           Englisch, Spanisch, Russsisch, Java, Python
+		          </li>
+		         </ul>
+		        </td>
+	        </tr>
+          </table>
+        </div>
+      </div>
+    <div class="col-md-2">
+    </div>
+   </div>
+  </section>
+  
+  <meta>
+    <log date="2016-03-31" time="10:53" labelPath=" » Start" lastEditor="Hagen Peukert" />
+  </meta>
+</MyCoReWebPage>

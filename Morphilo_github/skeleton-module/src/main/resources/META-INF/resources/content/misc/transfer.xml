@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+
+  <!-- Please insert English version here -->
+  <section title="Transfer" xml:lang="en">
+  <div class="row">
+      <div class="col-md-8">
+        <h2>Transfer</h2>
+        <h3>Progress of the Project</h3>
+        <img src="../../images/GanttMorphilo.jpg" />
+      </div>
+    <div class="col-md-4">
+    </div>
+   </div>
+  </section>
+  
+  <section title="Transfer" xml:lang="de">
+  <div class="row">
+      <div class="col-md-8">
+        <h2>Transfer</h2>
+        <h3>Projektfortschritt</h3>
+        <img src="../../images/GanttMorphilo.jpg" />
+      </div>
+    <div class="col-md-4">
+    </div>
+   </div>
+  </section>
+  <meta>
+    <log date="2016-03-31" time="10:53" labelPath=" » Start" lastEditor="Hagen Peukert" />
+  </meta>
+</MyCoReWebPage>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MyCoReWebPage>
+<MyCoReWebPage>
+  <section xml:lang="all" title="Erfassungsmaske Korpora">
+    
+    <xed:form xmlns:xed="http://www.mycore.de/xeditor" method="post" role="form" class="form-horizontal">
+      <xed:source uri="mcrobject:{$id}" />
+      <xed:cancel url="/receive/{$id}" />
+      <!--xed:post-processor xsl="postprocessor.xsl" /-->
+      <xed:bind xpath="/mycoreobject">
+        <xed:bind xpath="@ID" initially="skeleton_corpmeta_00000000" />
+        <xed:bind xpath="metadata">
+          <fieldset>
+          <!-- Form Name -->
+            <legend>
+              <h2>
+                <xed:output i18n="editor.legend.simpledoc" />
+              </h2>
+            </legend>
+              
+              <!-- Enter corpus data to be analyzed -->
+             	<xed:bind xpath="def.korpusname[@class='MCRMetaLangText']/korpusname">
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput_korpusname_write">
+                      <xed:output i18n="editor.label.korpusname" />
+                    </label>  
+                      <div class="col-md-4">
+                        <input id="textinput_korpusname_write" placeholder="" class="form-control input-md" type="text" />
+                      </div>
+                  </div>
+                </xed:bind>
+
+                <!-- dates -->
+                <xed:bind xpath="def.datefrom[@class='MCRMetaLangText']/datefrom">
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput_datefrom_write">
+                      <xed:output i18n="editor.label.datefrom" />
+                    </label>  
+                      <div class="col-md-4">
+                        <input id="textinput_datefrom_write" placeholder="" class="form-control input-md" type="text" />
+                      </div>
+                  </div>
+                </xed:bind>
+                <xed:bind xpath="def.dateuntil[@class='MCRMetaLangText']/dateuntil">
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput_dateuntil_write">
+                      <xed:output i18n="editor.label.dateuntil" />
+                    </label>  
+                      <div class="col-md-4">
+                        <input id="textinput_dateuntil_write" placeholder="" class="form-control input-md" type="text" />
+                      </div>
+                  </div>
+                </xed:bind>
+                <!--xed:bind xpath="def.datierung[@class='MCRMetaHistoryDate']/datierung">
+                  <xed:bind xpath="@inherited" default="0" />
+                  <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput_datierung_write">
+                      <xed:output i18n="editor.label.datierung" />
+                    </label>  
+                      <div class="col-md-4">
+                      	<xed:bind xpath="@xml:lang" default="de" />
+                        <input id="textinput_datierung_write" placeholder="" class="form-control input-md" type="text" />
+                      </div>
+                    <xed:bind xpath="calendar" default="julian" />
+	 	            <xed:bind xpath="ivon" />
+	 	            <xed:bind xpath="von">
+						<label class="col-md-4 control-label">
+							<xed:output i18n="editor.label.datefrom" />
+						</label>
+						<div class="col-md-4">
+							<input id="daterangefrom" placeholder="" class="form-control input-md" type="text" />
+						</div>
+					</xed:bind>
+					<xed:bind xpath="ibis" />
+	 	            <xed:bind xpath="bis">
+	 	            	<label class="col-md-4 control-label">
+	 	            		<xed:output i18n="editor.label.dateuntil" />
+	 	            	</label>
+	 	            	<div class="col-md-4">
+							<input id="daterangeuntil" placeholder="" class="form-control input-md" type="text" />
+						</div>
+					</xed:bind>
+                  </div>
+                </xed:bind-->
+                <!-- include number of words field -->
+                <xed:bind xpath="def.NoW[@class='MCRMetaLangText']/NoW" default="0"></xed:bind>
+
+                <xed:bind xpath="def.corpuslink[@class='MCRMetaLinkID']">
+                  <xed:bind xpath="@notinherit" default="true" />
+                  <xed:bind xpath="@heritable" default="false" />
+                  <xed:bind xpath="corpuslink">
+                    <xed:bind xpath="@inherited" default="0" />
+                    <xed:bind xpath="@xlink:type" default="locator" />
+                    <xed:bind xpath="@xlink:href" default="skeleton_morphilo_00000000" />
+                  </xed:bind>
+                </xed:bind>
+              
+                <!-- Submit or cancel -->
+                <div class="form-group">
+                  <label class="col-md-4 control-label" for="button_submit"></label>
+                  <div class="col-md-8">
+                        <xed:choose>
+                          <xed:when test="contains(/mycoreobject/@ID, '_00000000')">
+                            <button id="save" class="btn btn-success createobject" type="submit" xed:target="servlet"
+                              xed:href="CreateObjectServlet">
+                              <xed:output i18n="common.button.save" />
+                            </button>
+                          </xed:when>
+                          <xed:otherwise>
+                            <button id="save" class="btn btn-success updateobject" type="submit" xed:target="servlet"
+                              xed:href="UpdateObjectServlet">
+                              <xed:output i18n="common.button.save" />
+                            </button>
+                          </xed:otherwise>
+                        </xed:choose>
+                        <xed:output value="'&#160;'" />
+                        <button id="cancel" class="btn btn-danger" type="submit" xed:target="cancel">
+                          <xed:output i18n="common.button.cancel" />
+                        </button>
+                        <xed:output value="'&#160;'" />
+                        <button id="debug" class="btn btn-info" type="submit" xed:target="debug">
+                          <xed:output i18n="common.button.debug" />
+                        </button>
+                  </div>
+                </div>
+
+        </fieldset>
+       </xed:bind>
+      </xed:bind>
+    </xed:form>
+
+  </section>
+</MyCoReWebPage>
+

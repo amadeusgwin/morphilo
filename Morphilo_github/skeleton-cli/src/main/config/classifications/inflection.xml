@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="inflection">
+    <label xml:lang="de" text="Flexion" description="Repräsentation des Flexionsmorphems" />
+    <label xml:lang="en" text="Inflection" description="Representation of the inflectional morpheme" />
+    <categories>
+        <category ID="ThirdPerson">
+            <label xml:lang="de" text="ThirdPerson" />
+            <label xml:lang="en" text="ThirdPerson" />
+        </category>
+        <category ID="Plural">
+            <label xml:lang="de" text="Plural" />
+            <label xml:lang="en" text="Plural" />
+        </category>
+        <category ID="Possessiv">
+            <label xml:lang="de" text="Possessiv" />
+            <label xml:lang="en" text="Possessiv" />
+        </category>
+        <category ID="Komparativ">
+            <label xml:lang="de" text="Komparativ" />
+            <label xml:lang="en" text="Komparativ" />
+        </category>
+        <category ID="Superlativ">
+            <label xml:lang="de" text="Superlativ" />
+            <label xml:lang="en" text="Superlativ" />
+        </category>
+        <category ID="PastTense">
+            <label xml:lang="de" text="PastTense" />
+            <label xml:lang="en" text="PastTense" />
+        </category>
+        <category ID="PastParticiple">
+            <label xml:lang="de" text="PastParticiple" />
+            <label xml:lang="en" text="PastParticiple" />
+        </category>
+        <category ID="PresentParticiple">
+            <label xml:lang="de" text="PresentParticiple" />
+            <label xml:lang="en" text="PresentParticiple" />
+        </category>
+        <category ID="Progressive">
+            <label xml:lang="de" text="Progressive" />
+            <label xml:lang="en" text="Progressive" />
+        </category>
+        <category ID="yes">
+            <label xml:lang="de" text="yes" />
+            <label xml:lang="en" text="yes" />
+        </category>
+        <category ID="no">
+            <label xml:lang="de" text="no" />
+            <label xml:lang="en" text="no" />
+        </category>
+    </categories>
+</mycoreclass>

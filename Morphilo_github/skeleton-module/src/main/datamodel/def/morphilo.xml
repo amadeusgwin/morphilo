@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objecttype
+  name="morphilo"
+  isChild="true"
+  isParent="true"
+  hasDerivates="true"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="datamodel.xsd">
+  <metadata>
+    <element name="morphiloContainer" type="xml" style="dontknow" notinherit="true" heritable="false">
+      <xs:sequence>
+        <xs:element name="morphilo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="w" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType mixed="true">
+                  <xs:sequence>
+                      <!-- stem -->
+                      <xs:element name="m1" minOccurs="0" maxOccurs="unbounded">
+                        <xs:complexType mixed="true">
+                          <xs:sequence>
+                            <!-- base -->
+                            <xs:element name="m2" minOccurs="0" maxOccurs="unbounded">
+                              <xs:complexType mixed="true">
+                                <xs:sequence>
+                                  <!-- root -->
+                                  <xs:element name="m3" minOccurs="0" maxOccurs="unbounded">
+                                    <xs:complexType mixed="true">
+                                      <xs:attribute name="type" type="xs:string"/>
+                                      <!--xs:attribute name="PrefixbaseForm" type="xs:string"/>
+                                      <xs:attribute name="position" type="xs:string"/>
+                                      <xs:attribute name="SuffixbaseForm" type="xs:string"/>
+                                      <xs:attribute name="inflection" type="xs:string"/>
+                                      <xs:attribute name="pos" type="xs:string"/>
+                                      <xs:attribute name="occurrence" type="xs:string"/-->
+                                    </xs:complexType>
+                                  </xs:element>
+                                  <!-- prefix -->
+                                  <xs:element name="m4" minOccurs="0" maxOccurs="unbounded">
+                                    <xs:complexType mixed="true">
+                                      <xs:attribute name="type" type="xs:string"/>
+                                      <xs:attribute name="PrefixbaseForm" type="xs:string"/>
+                                      <xs:attribute name="position" type="xs:string"/>
+                                      <!--xs:attribute name="SuffixbaseForm" type="xs:string"/>
+                                      <xs:attribute name="inflection" type="xs:string"/>
+                                      <xs:attribute name="pos" type="xs:string"/>
+                                      <xs:attribute name="occurrence" type="xs:string"/-->
+                                    </xs:complexType>
+                                  </xs:element>
+                                </xs:sequence>
+                                <xs:attribute name="type" type="xs:string"/>
+                              </xs:complexType>  
+                            </xs:element>
+                            <!-- suffix -->
+                            <xs:element name="m5" minOccurs="0" maxOccurs="unbounded">
+                              <xs:complexType mixed="true">
+                                <xs:attribute name="type" type="xs:string"/>
+                                <xs:attribute name="SuffixbaseForm" type="xs:string"/>
+                                <xs:attribute name="position" type="xs:string"/>
+                                <xs:attribute name="inflection" type="xs:string"/>
+                                <!--xs:attribute name="pos" type="xs:string"/>
+                                <xs:attribute name="occurrence" type="xs:string"/>
+                                <xs:attribute name="PrefixbaseForm" type="xs:string"/-->
+                              </xs:complexType>
+                            </xs:element>
+                          </xs:sequence>
+                          <!-- stem-Attribute -->
+                          <xs:attribute name="type" type="xs:string"/>
+                          <xs:attribute name="pos" type="xs:string"/>
+                          <xs:attribute name="occurrence" type="xs:string"/>
+                          <!--xs:attribute name="SuffixbaseForm" type="xs:string"/>
+                          <xs:attribute name="inflection" type="xs:string"/>
+                          <xs:attribute name="position" type="xs:string"/>
+                          <xs:attribute name="PrefixbaseForm" type="xs:string"/-->
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:sequence>
+                    <!-- w -Attribute auf Wortebene -->
+                    <xs:attribute name="lemma" type="xs:string"/>
+                    <xs:attribute name="complexType" type="xs:string"/>
+                    <xs:attribute name="wordtype" type="xs:string"/>
+                    <xs:attribute name="occurrence" type="xs:string"/>
+                    <xs:attribute name="corpus" type="xs:string"/>
+                    <xs:attribute name="begin" type="xs:string"/>
+                    <xs:attribute name="end" type="xs:string"/>
+                  </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </element>
+  	<element name="wordtype" type="classification" minOccurs="0" maxOccurs="1">
+        <classification id="wordtype" />
+      </element>
+      <element name="complexType" type="classification" minOccurs="0" maxOccurs="1">
+        <classification id="complexType" />
+      </element>
+      <element name="corpus" type="classification" minOccurs="0" maxOccurs="1">
+        <classification id="corpus" />
+      </element>
+      <element name="pos" type="classification" minOccurs="0" maxOccurs="1">
+        <classification id="pos" />
+      </element>
+      <element name="PrefixbaseForm" type="classification" minOccurs="0" maxOccurs="1">
+        <classification id="PrefixbaseForm" />
+      </element>
+      <element name="SuffixbaseForm" type="classification" minOccurs="0" maxOccurs="1">
+        <classification id="SuffixbaseForm" />
+      </element>
+      <element name="inflection" type="classification" minOccurs="0" maxOccurs="1">
+        <classification id="inflection" />
+      </element>
+    <element name="corpuslink" type="link" minOccurs="0" maxOccurs="unbounded" >
+      <target type="corpmeta" />
+    </element>
+  </metadata>
+</objecttype>

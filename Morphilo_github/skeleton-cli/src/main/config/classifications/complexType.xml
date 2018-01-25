@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="complexType">
+    <label xml:lang="de" text="Typ des Kompositums" description="eine der viert Hauptworttypen" />
+    <label xml:lang="en" text="Compound type" description="one of four main word types" />
+    <categories>
+        <category ID="exocentric">
+            <label xml:lang="de" text="Exozentrisches Kompositum" />
+            <label xml:lang="en" text="Exocentric Compound" />
+        </category>
+        <category ID="endocentric">
+            <label xml:lang="de" text="Endozentrisches Kompositum" />
+            <label xml:lang="en" text="Endocentric Compound" />
+        </category>
+        <category ID="dvandva">
+            <label xml:lang="de" text="Dvandva" />
+            <label xml:lang="en" text="Dvandva" />
+        </category>
+    </categories>
+</mycoreclass>

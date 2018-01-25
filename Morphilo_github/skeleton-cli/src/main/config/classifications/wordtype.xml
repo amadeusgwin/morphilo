@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mycoreclass xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MCRClassification.xsd" ID="wordtype">
+    <label xml:lang="de" text="Worttyp" description="eine der viert Hauptworttypen" />
+    <label xml:lang="en" text="word type" description="one of four main word types" />
+    <categories>
+        <category ID="adjective">
+            <label xml:lang="de" text="Adjektiv" />
+            <label xml:lang="en" text="Adjective" />
+        </category>
+        <category ID="noun">
+            <label xml:lang="de" text="Substantive" />
+            <label xml:lang="en" text="Noun" />
+        </category>
+        <category ID="verb">
+            <label xml:lang="de" text="Verb" />
+            <label xml:lang="en" text="Verb" />
+        </category>
+        <category ID="adverb">
+            <label xml:lang="de" text="Adverb" />
+            <label xml:lang="en" text="Adverb" />
+        </category>
+    </categories>
+</mycoreclass>
