@@ -66,7 +66,7 @@ public class QualityControl {
 	 */
 	
 	private MCRObject mycoreObject;
-	private static java.util.logging.Logger LOGGER = LogManager.getLogger();
+	private static Logger LOGGER = LogManager.getLogger();
 	private ArrayList<MCRObject> relevantObjects = new ArrayList<MCRObject>();
 	
 	/*
