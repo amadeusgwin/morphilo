@@ -186,16 +186,16 @@
           <xsl:if test="string-length($corpID) &gt; 0">
         	<xsl:variable name="ifsDirectory" select="document(concat('ifs:/',$derivCorp))" />
         	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-            <li role="presentation">
-              <a href="{$ServletsBaseURL}object/tag{$HttpSession}?id={$derivCorp}&amp;objID={$corpID}" role="menuitem" tabindex="-1">
-                <xsl:value-of select="i18n:translate('object.nextObject')" />
-              </a>
-            </li>
-            <li role="presentation">
-              <a href="{$WebApplicationBaseURL}receive/{$corpID}" role="menuitem" tabindex="-1">
-                <xsl:value-of select="i18n:translate('object.backToProject')" />
-              </a>
-            </li>
+	            <li role="presentation">
+	              <a href="{$ServletsBaseURL}object/tag{$HttpSession}?id={$derivCorp}&amp;objID={$corpID}" role="menuitem" tabindex="-1">
+	                <xsl:value-of select="i18n:translate('object.nextObject')" />
+	              </a>
+	            </li>
+	            <li role="presentation">
+	              <a href="{$WebApplicationBaseURL}receive/{$corpID}" role="menuitem" tabindex="-1">
+	                <xsl:value-of select="i18n:translate('object.backToProject')" />
+	              </a>
+	            </li>
             </ul>
           </xsl:if>
           <xsl:if test="$CurrentUser='administrator'">

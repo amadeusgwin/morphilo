@@ -30,9 +30,9 @@
   <div class="row">
       <div class="col-md-8"> 
         <p>
-        The Morphilo Project aims at describung the development of the English derivational morphology over the last 700 years. By means of corpuslinguistic methods, all words are extracted from the Penn-Parsed Corpora and annotated with all relevant Information. To do that, it is necessary to precisely locate the morphemic components as close as possible. The annotations refer to prefix- and suffix morphemes as well as their allomorphs and position within the word. Composita additionally comprise information on their head and type (dvandva, exocentric, endocentric). <br />
-        Searching enables the user to subtly combine the different annotations and make the quantitative results visible over the time axis. Thus, the development of various phenomena on the English derivational morphology become clear. For example, the rise and fall of derivatives or composita over time and their relation to each other can be shown empirically with corpus data.<br />
-        To increase precision of the results, it is possible to align new corpora of English with the available data and, if necessary, to add missing words manually. These annotations are stored in a separate data model and can be optionally selected for future studies.
+        The Morphilo Project aims at describung the development of the English derivational morphology over the last 700 years. By means of corpuslinguistic methods all words are extracted from the Penn-Parsed Corpora and annotated with all relevant Information. To do that, it is necessary to precisely locate the morphemic components as close as possible. The annotations refer to prefix- and suffix morphemes as well as their allomorphs and position within the word. Composita additionally comprise information on their head and type (dvandva, exocentric, endocentric). <br />
+        Searching enables the user to subtly combine the different annotations and make the quantitativ results visible over the time axis. Thus the development of various phenomena on the English derivational morphology becomes clear. For example, the rise and fall of derivatives or composita over time and their relation to each other can be shown empirically with corpus data.<br />
+        To increase precision of the results it is possible to align new corpora of English with the available data and, if necessary, to add missing words manually. These annotations are stored in a separate data model and can be optionally selected for future studies.
         </p>
       </div>
     <div class="col-md-4">
@@ -45,12 +45,12 @@
     <div class="row">
      <div class="col-md-8">  
         <p>
-        Das Morphilo Projekt hat das Ziel, die Entwicklung der englischen Derivationsmorphologie der lezten 700 Jahre nachzuzeichnen. 
+        Das Morphilo Projekt hat das Ziel die Entwicklung der englischen Derivationsmorphologie der lezten 700 Jahre nachzuzeichnen. 
         Mittels korpuslinguistischer Methoden werden aus den Penn-Parsed Korpora alle Wörter mit den relevanten Informationen hinterlegt.
         Dazu ist es notwendig, Wörter möglichst genau in ihre morphemischen Bestandteile zu zerlegen und mit entsprechenden 
         Annotationen zu versehen. Die Annotationen verweisen auf alle Präfix- und Suffixmorpheme sowie deren Allomorphe und Positionen im Wort für eine jeweilige Zeiteinheit. Für Komposita werden zudem Kopfinformationen und die Art des Kompositums (dvandva, exozentrisch, endozentrisch) ausgezeichnet. <br />
         Eine Suchmaske ermöglicht es, geschickte Kombinationen der verschiedenen Annoationen abzufragen und so über die Zeitachse die Entwicklung verschiedener Phänomene der englischen Derivationsmorphologie quantitativ zu erfassen. Beispielweise lässt sich die Zu- und Abnahme von Derivativen oder Komposita über die Zeit und deren Verhältnis zueinander empirisch anhand von Korpusdaten belegen. <br />
-        Um die Genauigkeit der Aussagen zu erhöhen, ist es auch möglich neue Korpora des Englischen mit den vorhandenen Daten abzugleichen und fehlende Wörter manuell nachzutragen. Diese Annotationen werden in separaten Datenmodellen gespeichert und können für zukünftige Analysen wahlweise hinzugefügt werden.
+        Um die Genauigkeit der Aussagen zu erhöhen ist es auch möglich neue Korpora des Englischen mit den vorhandenen Daten abzugleichen und fehlende Wörter manuell nachzutragen. Diese Annotationen werden in separaten Datenmodellen gespeichert und können für zukünftige Analysen wahlweise hinzugefügt werden.
 	</p>
       </div>
      <div class="col-md-4">
