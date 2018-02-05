@@ -1,0 +1,14 @@
+<configuration status="OFF">
+  <appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="morphilo %-5p %X{loginId} %c{1}: %m%n%ex"/>
+    </Console>
+  </appenders>
+  <loggers>
+    <root level="info">
+      <appender-ref ref="Console"/>
+    </root>
+    <logger name="org.mycore.frontend.servlets.MCRServlet" level="debug"/>
+    <logger name="custom.mycore.addons.morphilo.ProcessCorpusServlet" level="debug"/>
+  </loggers>
+</configuration>
